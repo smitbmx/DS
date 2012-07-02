@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<content>
+	<bobcat>
+		<name type="string" value="том" />
+		<age type="int" value="5" />
+		<weight type="float" value="4,5" />
+		<hear_count type="long" value="12345" />
+		<cat_type type="string" value="большой" />
+	</bobcat>
+	<bobcat>
+		<name type="string" value="джой" />
+		<age type="int" value="6" />
+		<weight type="float" value="3,2" />
+		<hear_count type="long" value="54321" />
+		<cat_type type="string" value="маленький" />
+	</bobcat>
+	<tiger>
+		<name type="string" value="рой" />
+		<age type="int" value="8" />
+		<weight type="float" value="80,5" />
+		<location type="string" value="Канада" />
+		<color type="string" value="Серый" />
+		<height type="float" value="2,2" />
+		<is_hungry type="bool" value="True" />
+	</tiger>
+	<tiger>
+		<name type="string" value="мак" />
+		<age type="int" value="10" />
+		<weight type="float" value="105,1" />
+		<location type="string" value="Африка" />
+		<color type="string" value="Оранжевый" />
+		<height type="float" value="2,2" />
+		<is_hungry type="bool" value="True" />
+	</tiger>
+</content>

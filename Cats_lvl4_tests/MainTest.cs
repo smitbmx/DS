@@ -6,6 +6,7 @@ using NUnit.Framework;
 using Cats_lvl4;
 using Cats_lvl4.DataStoreges;
 using System.IO;
+using System.Reflection;
 
 namespace Cats_lvl4_tests
 {
@@ -18,7 +19,8 @@ namespace Cats_lvl4_tests
         [TestFixtureSetUp]
         public void SetCollection()
         {
-            this.path = @"C:/BuildAgent/work/9839fd882d9d77f0/Cats_lvl4/bin/Debug/"; 
+            this.path = Assembly.GetExecutingAssembly().Location + "/test_files/";
+            //this.path = @"c:/Users/Tioma/Documents/Visual Studio 2010/GIT/DS_Cats/test_files/"; 
             cat_list = new Cat[] { new Bobcat(12345, "большой","том", 5, 4.5f), 
                 new Bobcat(54321, "маленький","джой",6,3.2f), 
                 new Tiger("Канада", "Серый", 2.2f, true,"рой",8,80.5f), 

@@ -6,6 +6,7 @@ using NUnit.Framework;
 using Cats_lvl4;
 using Cats_lvl4.DataStoreges;
 using System.IO;
+using System.Reflection;
 
 namespace Cats_lvl4_tests
 {
@@ -15,7 +16,8 @@ namespace Cats_lvl4_tests
         List<Cat> result4;
         List<Cat> result1;
         List<Cat> result0;
-        static string file_path = @"C:/BuildAgent/work/9839fd882d9d77f0/Cats_lvl4/bin/Debug/";
+        //static string file_path = @"c:/Users/Tioma/Documents/Visual Studio 2010/GIT/DS_Cats/test_files/";
+        static string file_path = Assembly.GetExecutingAssembly().Location + "/test_files/";
         string path;
         static public IDs[] ds0 = { new DS_csv(file_path + "cats_0_ideal.csv"),
                                      new DS_xml(file_path + "cats_0_ideal.xml"),

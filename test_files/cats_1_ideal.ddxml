@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Cat xsi:type="Bobcat">
+    <name>том</name>
+    <age>5</age>
+    <weight>4.5</weight>
+    <hear_count>12345</hear_count>
+    <cat_type>большой</cat_type>
+  </Cat>
+</ArrayOfCat>
