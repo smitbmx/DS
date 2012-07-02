@@ -1,0 +1,90 @@
+<!ENTITY GreaterThanSign       "&#x0026;#x003E;">
+<!ENTITY LessThanSign          "&#x0026;#x003C;">
+<!ELEMENT MetricsReport (SystemSummary, FileMetricsList)>
+<!ELEMENT FileMetricsList (FileMetrics)*>
+<!ELEMENT FileMetrics (FileSummary, TypeMetricsList)>
+<!ELEMENT TypeMetricsList (TypeMetrics)*>
+<!ELEMENT TypeMetrics (TypeSummary, MethodMetricsList)>
+<!ELEMENT MethodMetricsList (MethodMetrics)*>
+<!ELEMENT SystemSummary (SourceLines,CSharpCodeLines,
+                         CommentLines,Files,Types,
+                         Methods,AggregateCyclomaticComplexity,MeanCyclomaticComplexity,MedianCyclomaticComplexity,Conditionals,
+                         DecisionDensity,
+                         MaxLoopDepth,MaxLoopDepthPosition?,
+                         MaxConditionalDepth,MaxConditionalDepthPosition?,
+                         HalsteadUniqueOperators,HalsteadUniqueOperands,
+                         HalsteadOperatorOccurrence,HalsteadOperandOccurrence,
+                         HalsteadProgramLength,HalsteadProgramVocabulary,
+                         HalsteadProgramVolume,HalsteadProgramDifficulty,
+                         HalsteadProgramEffort,HalsteadBugPrediction,
+                         SEIMaintainabilityIndex)>
+<!ELEMENT FileSummary (FileName,SourceLines,CSharpCodeLines,
+                         CommentLines,Types,
+                         Methods,AggregateCyclomaticComplexity,MeanCyclomaticComplexity,MedianCyclomaticComplexity,Conditionals,
+                         DecisionDensity,
+                         MaxLoopDepth,LineNumber?,
+                         MaxConditionalDepth,LineNumber?,
+                         HalsteadUniqueOperators,HalsteadUniqueOperands,
+                         HalsteadOperatorOccurrence,HalsteadOperandOccurrence,
+                         HalsteadProgramLength,HalsteadProgramVocabulary,
+                         HalsteadProgramVolume,HalsteadProgramDifficulty,
+                         HalsteadProgramEffort,HalsteadBugPrediction,
+                         SEIMaintainabilityIndex)>
+<!ELEMENT TypeSummary (TypeName,LineNumber,CSharpCodeLines,
+                         CommentLines,
+                         Methods,AggregateCyclomaticComplexity,MeanCyclomaticComplexity,MedianCyclomaticComplexity,Conditionals,
+                         DecisionDensity,
+                         MaxLoopDepth,LineNumber?,
+                         MaxConditionalDepth,LineNumber?,
+                         HalsteadUniqueOperators,HalsteadUniqueOperands,
+                         HalsteadOperatorOccurrence,HalsteadOperandOccurrence,
+                         HalsteadProgramLength,HalsteadProgramVocabulary,
+                         HalsteadProgramVolume,HalsteadProgramDifficulty,
+                         HalsteadProgramEffort,HalsteadBugPrediction,
+                         SEIMaintainabilityIndex)>
+<!ELEMENT MethodMetrics (MethodName,LineNumber,CSharpCodeLines,
+                         CommentLines,
+                        CyclomaticComplexity,Conditionals,
+                         DecisionDensity,
+                         MaxLoopDepth,LineNumber?,
+                         MaxConditionalDepth,LineNumber?,
+                         HalsteadUniqueOperators,HalsteadUniqueOperands,
+                         HalsteadOperatorOccurrence,HalsteadOperandOccurrence,
+                         HalsteadProgramLength,HalsteadProgramVocabulary,
+                         HalsteadProgramVolume,HalsteadProgramDifficulty,
+                         HalsteadProgramEffort,HalsteadBugPrediction,
+                         SEIMaintainabilityIndex)>
+
+<!ELEMENT FileName (#PCDATA)>
+<!ELEMENT TypeName (#PCDATA)>
+<!ELEMENT MethodName (#PCDATA)>
+<!ELEMENT SourceLines (#PCDATA)>
+<!ELEMENT CSharpCodeLines (#PCDATA)>
+<!ELEMENT CommentLines (#PCDATA)>
+<!ELEMENT Files (#PCDATA)>
+<!ELEMENT Types (#PCDATA)>
+<!ELEMENT Methods (#PCDATA)>
+<!ELEMENT Conditionals (#PCDATA)>
+<!ELEMENT CyclomaticComplexity (#PCDATA)>
+<!ELEMENT AggregateCyclomaticComplexity (#PCDATA)>
+<!ELEMENT MeanCyclomaticComplexity (#PCDATA)>
+<!ELEMENT MedianCyclomaticComplexity (#PCDATA)>
+<!ELEMENT DecisionDensity (#PCDATA)>
+<!ELEMENT MaxLoopDepth (#PCDATA)>
+<!ELEMENT MaxLoopDepthPosition (Position)>
+<!ELEMENT MaxConditionalDepth (#PCDATA)>
+<!ELEMENT MaxConditionalDepthPosition (Position)>
+<!ELEMENT Position (FileName,PackageName,TypeName,LineNumber)>
+<!ELEMENT PackageName (#PCDATA)>
+<!ELEMENT LineNumber (#PCDATA)>                
+<!ELEMENT HalsteadUniqueOperators (#PCDATA)>
+<!ELEMENT HalsteadUniqueOperands (#PCDATA)>
+<!ELEMENT HalsteadOperatorOccurrence (#PCDATA)>
+<!ELEMENT HalsteadOperandOccurrence (#PCDATA)>
+<!ELEMENT HalsteadProgramLength (#PCDATA)>
+<!ELEMENT HalsteadProgramVocabulary (#PCDATA)>
+<!ELEMENT HalsteadProgramVolume (#PCDATA)>
+<!ELEMENT HalsteadProgramDifficulty (#PCDATA)>
+<!ELEMENT HalsteadProgramEffort (#PCDATA)>
+<!ELEMENT HalsteadBugPrediction (#PCDATA)>
+<!ELEMENT SEIMaintainabilityIndex (#PCDATA)>

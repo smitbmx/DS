@@ -1,0 +1,2556 @@
+                                          CSharp Software Metrics Summary
+                                          Semantic Designs, Inc.
+                                          http://www.semdesigns.com
+
+Summary:
+    928 lines of source.
+    862 lines of CSharp code.
+    17 lines of comment.
+    26 files.
+    25 types.
+    63 methods.
+    Aggregate cyclomatic complexity: 111
+    Mean cyclomatic complexity: 1.76
+    Median cyclomatic complexity: 1.00
+    Conditional statements: 49
+    Decision density: 3.80
+    Max loop depth: 1
+    Max loop depth position: <file C:/Users/Tioma/Documents/Visual Studio 2010/Projects/Cats_lvl4/Cats_lvl4/DataStoreges/DS_csv.cs>::%global_declaration_space%.Cats_lvl4.DS_csv @ line 33
+    Max conditional nesting depth: 4
+    Max conditional nesting depth position: <file C:/Users/Tioma/Documents/Visual Studio 2010/Projects/Cats_lvl4/Cats_lvl4/ConverterFactory.cs>::%global_declaration_space%.Cats_lvl4.ConverterFactory @ line 20
+    Halstead unique operators: 387
+    Halstead unique operands: 1160
+    Halstead operator occurrence: 2588
+    Halstead operand occurrence: 2349
+    Halstead program length: 4937
+    Halstead program vocabulary: 1547
+    Halstead program volume: 52308.79
+    Halstead program difficulty: 391.84
+    Halstead program effort: 20496544.01
+    Halstead bug prediction: 17.44
+    SEI maintainability index: 98.71
+
+        FILE C:/Users/Tioma/Documents/Visual Studio 2010/Projects/Cats_lvl4/Cats_lvl4/Bobcat.cs
+            37 lines of source.
+            33 lines of CSharp code.
+            0 lines of comment.
+            1 types.
+            4 methods.
+            Aggregate cyclomatic complexity: 9
+            Mean cyclomatic complexity: 2.25
+            Median cyclomatic complexity: 1.00
+            Conditional Statements: 5
+            Decision density: 0.35
+            Max loop depth: 0
+            Max conditional nesting depth: 1
+            Max conditional nesting depth position: @ line 30
+            Halstead unique operators: 17
+            Halstead unique operands: 34
+            Halstead operator occurrence: 97
+            Halstead operand occurrence: 80
+            Halstead program length: 177
+            Halstead program vocabulary: 51
+            Halstead program volume: 1004.02
+            Halstead program difficulty: 20.00
+            Halstead program effort: 20080.39
+            Halstead bug prediction: 0.33
+            SEI maintainability index: 110.59
+
+            CLASS Bobcat @ line 9
+                26 lines of CSharp code.
+                0 lines of comment.
+                4 methods.
+                Aggregate cyclomatic complexity: 9
+                Mean cyclomatic complexity: 2.25
+                Median cyclomatic complexity: 1.00
+                Conditional statements: 5
+                Decision density: 0.35
+                Max loop depth: 0
+                Max conditional nesting depth: 1
+                Max conditional nesting depth position: @ line 30
+                Halstead unique operators: 15
+                Halstead unique operands: 22
+                Halstead operator occurrence: 79
+                Halstead operand occurrence: 62
+                Halstead program length: 141
+                Halstead program vocabulary: 37
+                Halstead program volume: 734.53
+                Halstead program difficulty: 21.14
+                Halstead program effort: 15525.35
+                Halstead bug prediction: 0.24
+                SEI maintainability index: 114.45
+
+                METHOD Bobcatconstructor @ line 13
+                    6 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.17
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 8
+                    Halstead unique operands: 12
+                    Halstead operator occurrence: 19
+                    Halstead operand occurrence: 19
+                    Halstead program length: 38
+                    Halstead program vocabulary: 20
+                    Halstead program volume: 164.23
+                    Halstead program difficulty: 6.33
+                    Halstead program effort: 1040.14
+                    Halstead bug prediction: 0.05
+                    SEI maintainability index: 115.22
+                METHOD Bobcatconstructor @ line 20
+                    1 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 1.00
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 5
+                    Halstead unique operands: 2
+                    Halstead operator occurrence: 6
+                    Halstead operand occurrence: 2
+                    Halstead program length: 8
+                    Halstead program vocabulary: 7
+                    Halstead program volume: 22.46
+                    Halstead program difficulty: 2.50
+                    Halstead program effort: 56.15
+                    Halstead bug prediction: 0.01
+                    SEI maintainability index: 154.59
+                METHOD Equals @ line 27
+                    9 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 6
+                    Conditional statements: 5
+                    Decision density: 0.67
+                    Max loop depth: 0
+                    Max conditional nesting depth: 1
+                    Max conditional nesting depth position:  @ line 30
+                    Halstead unique operators: 12
+                    Halstead unique operands: 16
+                    Halstead operator occurrence: 43
+                    Halstead operand occurrence: 27
+                    Halstead program length: 70
+                    Halstead program vocabulary: 28
+                    Halstead program volume: 336.51
+                    Halstead program difficulty: 10.13
+                    Halstead program effort: 3407.21
+                    Halstead bug prediction: 0.11
+                    SEI maintainability index: 103.77
+                METHOD getWeight @ line 22
+                    4 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.25
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 6
+                    Halstead unique operands: 5
+                    Halstead operator occurrence: 6
+                    Halstead operand occurrence: 5
+                    Halstead program length: 11
+                    Halstead program vocabulary: 11
+                    Halstead program volume: 38.05
+                    Halstead program difficulty: 3.00
+                    Halstead program effort: 114.16
+                    Halstead bug prediction: 0.01
+                    SEI maintainability index: 129.39
+
+
+        FILE C:/Users/Tioma/Documents/Visual Studio 2010/Projects/Cats_lvl4/Cats_lvl4/BobcatConverters/Convert_bobcat_csv.cs
+            36 lines of source.
+            34 lines of CSharp code.
+            0 lines of comment.
+            1 types.
+            2 methods.
+            Aggregate cyclomatic complexity: 4
+            Mean cyclomatic complexity: 2.00
+            Median cyclomatic complexity: 2.00
+            Conditional Statements: 2
+            Decision density: 0.15
+            Max loop depth: 0
+            Max conditional nesting depth: 1
+            Max conditional nesting depth position: @ line 15
+            Halstead unique operators: 18
+            Halstead unique operands: 46
+            Halstead operator occurrence: 106
+            Halstead operand occurrence: 88
+            Halstead program length: 194
+            Halstead program vocabulary: 64
+            Halstead program volume: 1164.00
+            Halstead program difficulty: 17.22
+            Halstead program effort: 20041.04
+            Halstead bug prediction: 0.39
+            SEI maintainability index: 93.76
+
+            CLASS Convert_bobcat_csv @ line 9
+                27 lines of CSharp code.
+                0 lines of comment.
+                2 methods.
+                Aggregate cyclomatic complexity: 4
+                Mean cyclomatic complexity: 2.00
+                Median cyclomatic complexity: 2.00
+                Conditional statements: 2
+                Decision density: 0.15
+                Max loop depth: 0
+                Max conditional nesting depth: 1
+                Max conditional nesting depth position: @ line 15
+                Halstead unique operators: 16
+                Halstead unique operands: 33
+                Halstead operator occurrence: 87
+                Halstead operand occurrence: 69
+                Halstead program length: 156
+                Halstead program vocabulary: 49
+                Halstead program volume: 875.89
+                Halstead program difficulty: 16.73
+                Halstead program effort: 14651.33
+                Halstead bug prediction: 0.29
+                SEI maintainability index: 97.50
+
+                METHOD fromStr @ line 11
+                    18 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 3
+                    Conditional statements: 2
+                    Decision density: 0.17
+                    Max loop depth: 0
+                    Max conditional nesting depth: 1
+                    Max conditional nesting depth position:  @ line 15
+                    Halstead unique operators: 12
+                    Halstead unique operands: 25
+                    Halstead operator occurrence: 63
+                    Halstead operand occurrence: 47
+                    Halstead program length: 110
+                    Halstead program vocabulary: 37
+                    Halstead program volume: 573.04
+                    Halstead program difficulty: 11.28
+                    Halstead program effort: 6463.89
+                    Halstead bug prediction: 0.19
+                    SEI maintainability index: 90.46
+                METHOD toStr @ line 30
+                    5 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.20
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 9
+                    Halstead unique operands: 14
+                    Halstead operator occurrence: 21
+                    Halstead operand occurrence: 20
+                    Halstead program length: 41
+                    Halstead program vocabulary: 23
+                    Halstead program volume: 185.47
+                    Halstead program difficulty: 6.43
+                    Halstead program effort: 1192.28
+                    Halstead bug prediction: 0.06
+                    SEI maintainability index: 117.54
+
+
+        FILE C:/Users/Tioma/Documents/Visual Studio 2010/Projects/Cats_lvl4/Cats_lvl4/BobcatConverters/Convert_bobcat_json.cs
+            32 lines of source.
+            30 lines of CSharp code.
+            0 lines of comment.
+            1 types.
+            2 methods.
+            Aggregate cyclomatic complexity: 2
+            Mean cyclomatic complexity: 1.00
+            Median cyclomatic complexity: 1.00
+            Conditional Statements: 0
+            Decision density: 0.09
+            Max loop depth: 0
+            Max conditional nesting depth: 0
+            Halstead unique operators: 15
+            Halstead unique operands: 46
+            Halstead operator occurrence: 88
+            Halstead operand occurrence: 83
+            Halstead program length: 171
+            Halstead program vocabulary: 61
+            Halstead program volume: 1014.16
+            Halstead program difficulty: 13.53
+            Halstead program effort: 13724.18
+            Halstead bug prediction: 0.34
+            SEI maintainability index: 97.04
+
+            CLASS Convert_bobcat_json @ line 9
+                23 lines of CSharp code.
+                0 lines of comment.
+                2 methods.
+                Aggregate cyclomatic complexity: 2
+                Mean cyclomatic complexity: 1.00
+                Median cyclomatic complexity: 1.00
+                Conditional statements: 0
+                Decision density: 0.09
+                Max loop depth: 0
+                Max conditional nesting depth: 0
+                Halstead unique operators: 13
+                Halstead unique operands: 33
+                Halstead operator occurrence: 69
+                Halstead operand occurrence: 64
+                Halstead program length: 133
+                Halstead program vocabulary: 46
+                Halstead program volume: 734.63
+                Halstead program difficulty: 12.61
+                Halstead program effort: 9260.84
+                Halstead bug prediction: 0.24
+                SEI maintainability index: 101.35
+
+                METHOD fromStr @ line 11
+                    10 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.10
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 8
+                    Halstead unique operands: 23
+                    Halstead operator occurrence: 44
+                    Halstead operand occurrence: 40
+                    Halstead program length: 84
+                    Halstead program vocabulary: 31
+                    Halstead program volume: 416.15
+                    Halstead program difficulty: 6.96
+                    Halstead program effort: 2894.97
+                    Halstead bug prediction: 0.14
+                    SEI maintainability index: 102.11
+                METHOD toStr @ line 22
+                    9 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.11
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 10
+                    Halstead unique operands: 16
+                    Halstead operator occurrence: 22
+                    Halstead operand occurrence: 22
+                    Halstead program length: 44
+                    Halstead program vocabulary: 26
+                    Halstead program volume: 206.82
+                    Halstead program difficulty: 6.88
+                    Halstead program effort: 1421.88
+                    Halstead bug prediction: 0.07
+                    SEI maintainability index: 107.45
+
+
+        FILE C:/Users/Tioma/Documents/Visual Studio 2010/Projects/Cats_lvl4/Cats_lvl4/BobcatConverters/Convert_bobcat_xml.cs
+            29 lines of source.
+            27 lines of CSharp code.
+            0 lines of comment.
+            1 types.
+            2 methods.
+            Aggregate cyclomatic complexity: 2
+            Mean cyclomatic complexity: 1.00
+            Median cyclomatic complexity: 1.00
+            Conditional Statements: 0
+            Decision density: 0.10
+            Max loop depth: 0
+            Max conditional nesting depth: 0
+            Halstead unique operators: 14
+            Halstead unique operands: 45
+            Halstead operator occurrence: 93
+            Halstead operand occurrence: 88
+            Halstead program length: 181
+            Halstead program vocabulary: 59
+            Halstead program volume: 1064.76
+            Halstead program difficulty: 13.69
+            Halstead program effort: 14575.36
+            Halstead bug prediction: 0.35
+            SEI maintainability index: 98.31
+
+            CLASS Convert_bobcat_xml @ line 9
+                20 lines of CSharp code.
+                0 lines of comment.
+                2 methods.
+                Aggregate cyclomatic complexity: 2
+                Mean cyclomatic complexity: 1.00
+                Median cyclomatic complexity: 1.00
+                Conditional statements: 0
+                Decision density: 0.10
+                Max loop depth: 0
+                Max conditional nesting depth: 0
+                Halstead unique operators: 12
+                Halstead unique operands: 32
+                Halstead operator occurrence: 74
+                Halstead operand occurrence: 69
+                Halstead program length: 143
+                Halstead program vocabulary: 44
+                Halstead program volume: 780.70
+                Halstead program difficulty: 12.94
+                Halstead program effort: 10100.29
+                Halstead bug prediction: 0.26
+                SEI maintainability index: 103.17
+
+                METHOD fromStr @ line 11
+                    10 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.10
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 9
+                    Halstead unique operands: 25
+                    Halstead operator occurrence: 52
+                    Halstead operand occurrence: 48
+                    Halstead program length: 100
+                    Halstead program vocabulary: 34
+                    Halstead program volume: 508.75
+                    Halstead program difficulty: 8.64
+                    Halstead program effort: 4395.57
+                    Halstead bug prediction: 0.17
+                    SEI maintainability index: 101.06
+                METHOD toStr @ line 22
+                    6 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.17
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 9
+                    Halstead unique operands: 13
+                    Halstead operator occurrence: 19
+                    Halstead operand occurrence: 19
+                    Halstead program length: 38
+                    Halstead program vocabulary: 22
+                    Halstead program volume: 169.46
+                    Halstead program difficulty: 6.58
+                    Halstead program effort: 1114.51
+                    Halstead bug prediction: 0.06
+                    SEI maintainability index: 115.05
+
+
+        FILE C:/Users/Tioma/Documents/Visual Studio 2010/Projects/Cats_lvl4/Cats_lvl4/BobcatConverters/Convert_bobcat_yaml.cs
+            31 lines of source.
+            29 lines of CSharp code.
+            0 lines of comment.
+            1 types.
+            2 methods.
+            Aggregate cyclomatic complexity: 2
+            Mean cyclomatic complexity: 1.00
+            Median cyclomatic complexity: 1.00
+            Conditional Statements: 0
+            Decision density: 0.09
+            Max loop depth: 0
+            Max conditional nesting depth: 0
+            Halstead unique operators: 15
+            Halstead unique operands: 45
+            Halstead operator occurrence: 87
+            Halstead operand occurrence: 82
+            Halstead program length: 169
+            Halstead program vocabulary: 60
+            Halstead program volume: 998.26
+            Halstead program difficulty: 13.67
+            Halstead program effort: 13642.95
+            Halstead bug prediction: 0.33
+            SEI maintainability index: 97.69
+
+            CLASS Convert_bobcat_yaml @ line 9
+                22 lines of CSharp code.
+                0 lines of comment.
+                2 methods.
+                Aggregate cyclomatic complexity: 2
+                Mean cyclomatic complexity: 1.00
+                Median cyclomatic complexity: 1.00
+                Conditional statements: 0
+                Decision density: 0.09
+                Max loop depth: 0
+                Max conditional nesting depth: 0
+                Halstead unique operators: 13
+                Halstead unique operands: 32
+                Halstead operator occurrence: 68
+                Halstead operand occurrence: 63
+                Halstead program length: 131
+                Halstead program vocabulary: 45
+                Halstead program volume: 719.43
+                Halstead program difficulty: 12.80
+                Halstead program effort: 9206.49
+                Halstead bug prediction: 0.24
+                SEI maintainability index: 102.17
+
+                METHOD fromStr @ line 11
+                    10 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.10
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 8
+                    Halstead unique operands: 23
+                    Halstead operator occurrence: 44
+                    Halstead operand occurrence: 40
+                    Halstead program length: 84
+                    Halstead program vocabulary: 31
+                    Halstead program volume: 416.15
+                    Halstead program difficulty: 6.96
+                    Halstead program effort: 2894.97
+                    Halstead bug prediction: 0.14
+                    SEI maintainability index: 102.11
+                METHOD toStr @ line 22
+                    8 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.13
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 10
+                    Halstead unique operands: 15
+                    Halstead operator occurrence: 21
+                    Halstead operand occurrence: 21
+                    Halstead program length: 42
+                    Halstead program vocabulary: 25
+                    Halstead program volume: 195.04
+                    Halstead program difficulty: 7.00
+                    Halstead program effort: 1365.29
+                    Halstead bug prediction: 0.07
+                    SEI maintainability index: 109.66
+
+
+        FILE C:/Users/Tioma/Documents/Visual Studio 2010/Projects/Cats_lvl4/Cats_lvl4/Cat.cs
+            23 lines of source.
+            22 lines of CSharp code.
+            0 lines of comment.
+            1 types.
+            3 methods.
+            Aggregate cyclomatic complexity: 2
+            Mean cyclomatic complexity: 0.67
+            Median cyclomatic complexity: 1.00
+            Conditional Statements: 0
+            Decision density: 0.13
+            Max loop depth: 0
+            Max conditional nesting depth: 0
+            Halstead unique operators: 9
+            Halstead unique operands: 23
+            Halstead operator occurrence: 44
+            Halstead operand occurrence: 50
+            Halstead program length: 94
+            Halstead program vocabulary: 32
+            Halstead program volume: 470.00
+            Halstead program difficulty: 9.78
+            Halstead program effort: 4597.83
+            Halstead bug prediction: 0.16
+            SEI maintainability index: 118.43
+
+            CLASS Cat @ line 9
+                15 lines of CSharp code.
+                0 lines of comment.
+                3 methods.
+                Aggregate cyclomatic complexity: 2
+                Mean cyclomatic complexity: 0.67
+                Median cyclomatic complexity: 1.00
+                Conditional statements: 0
+                Decision density: 0.13
+                Max loop depth: 0
+                Max conditional nesting depth: 0
+                Halstead unique operators: 7
+                Halstead unique operands: 11
+                Halstead operator occurrence: 26
+                Halstead operand occurrence: 32
+                Halstead program length: 58
+                Halstead program vocabulary: 18
+                Halstead program volume: 241.86
+                Halstead program difficulty: 10.18
+                Halstead program effort: 2462.53
+                Halstead bug prediction: 0.08
+                SEI maintainability index: 124.63
+
+                METHOD Catconstructor @ line 15
+                    6 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.17
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 6
+                    Halstead unique operands: 9
+                    Halstead operator occurrence: 16
+                    Halstead operand occurrence: 14
+                    Halstead program length: 30
+                    Halstead program vocabulary: 15
+                    Halstead program volume: 117.21
+                    Halstead program difficulty: 4.67
+                    Halstead program effort: 546.96
+                    Halstead bug prediction: 0.04
+                    SEI maintainability index: 116.97
+                METHOD Catconstructor @ line 14
+                    1 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 1.00
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 3
+                    Halstead unique operands: 2
+                    Halstead operator occurrence: 3
+                    Halstead operand occurrence: 2
+                    Halstead program length: 5
+                    Halstead program vocabulary: 5
+                    Halstead program volume: 11.61
+                    Halstead program difficulty: 1.50
+                    Halstead program effort: 17.41
+                    Halstead bug prediction: 0.00
+                    SEI maintainability index: 158.02
+                METHOD getWeight @ line 21
+                    1 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 0
+                    Conditional statements: 0
+                    Decision density: 0.00
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 2
+                    Halstead unique operands: 4
+                    Halstead operator occurrence: 2
+                    Halstead operand occurrence: 4
+                    Halstead program length: 6
+                    Halstead program vocabulary: 6
+                    Halstead program volume: 15.51
+                    Halstead program difficulty: 1.00
+                    Halstead program effort: 15.51
+                    Halstead bug prediction: 0.01
+                    SEI maintainability index: 156.74
+
+
+        FILE C:/Users/Tioma/Documents/Visual Studio 2010/Projects/Cats_lvl4/Cats_lvl4/CatCollection.cs
+            30 lines of source.
+            26 lines of CSharp code.
+            0 lines of comment.
+            1 types.
+            3 methods.
+            Aggregate cyclomatic complexity: 3
+            Mean cyclomatic complexity: 1.00
+            Median cyclomatic complexity: 1.00
+            Conditional Statements: 0
+            Decision density: 0.17
+            Max loop depth: 0
+            Max conditional nesting depth: 0
+            Halstead unique operators: 13
+            Halstead unique operands: 35
+            Halstead operator occurrence: 66
+            Halstead operand occurrence: 65
+            Halstead program length: 131
+            Halstead program vocabulary: 48
+            Halstead program volume: 731.63
+            Halstead program difficulty: 12.07
+            Halstead program effort: 8831.82
+            Halstead bug prediction: 0.24
+            SEI maintainability index: 111.96
+
+            CLASS CatCollection @ line 10
+                18 lines of CSharp code.
+                0 lines of comment.
+                3 methods.
+                Aggregate cyclomatic complexity: 3
+                Mean cyclomatic complexity: 1.00
+                Median cyclomatic complexity: 1.00
+                Conditional statements: 0
+                Decision density: 0.17
+                Max loop depth: 0
+                Max conditional nesting depth: 0
+                Halstead unique operators: 11
+                Halstead unique operands: 21
+                Halstead operator occurrence: 45
+                Halstead operand occurrence: 44
+                Halstead program length: 89
+                Halstead program vocabulary: 32
+                Halstead program volume: 445.00
+                Halstead program difficulty: 11.52
+                Halstead program effort: 5128.10
+                Halstead bug prediction: 0.15
+                SEI maintainability index: 117.92
+
+                METHOD DeSerialize @ line 19
+                    4 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.25
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 5
+                    Halstead unique operands: 9
+                    Halstead operator occurrence: 8
+                    Halstead operand occurrence: 10
+                    Halstead program length: 18
+                    Halstead program vocabulary: 14
+                    Halstead program volume: 68.53
+                    Halstead program difficulty: 2.78
+                    Halstead program effort: 190.37
+                    Halstead bug prediction: 0.02
+                    SEI maintainability index: 126.33
+                METHOD Serialize @ line 14
+                    4 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.25
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 4
+                    Halstead unique operands: 9
+                    Halstead operator occurrence: 7
+                    Halstead operand occurrence: 10
+                    Halstead program length: 17
+                    Halstead program vocabulary: 13
+                    Halstead program volume: 62.91
+                    Halstead program difficulty: 2.22
+                    Halstead program effort: 139.79
+                    Halstead bug prediction: 0.02
+                    SEI maintainability index: 126.78
+                METHOD SortCatList @ line 24
+                    5 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.20
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 8
+                    Halstead unique operands: 11
+                    Halstead operator occurrence: 22
+                    Halstead operand occurrence: 16
+                    Halstead program length: 38
+                    Halstead program vocabulary: 19
+                    Halstead program volume: 161.42
+                    Halstead program difficulty: 5.82
+                    Halstead program effort: 939.18
+                    Halstead bug prediction: 0.05
+                    SEI maintainability index: 118.26
+
+
+        FILE C:/Users/Tioma/Documents/Visual Studio 2010/Projects/Cats_lvl4/Cats_lvl4/CatConverters/Convert_cat_csv.cs
+            30 lines of source.
+            28 lines of CSharp code.
+            0 lines of comment.
+            1 types.
+            4 methods.
+            Aggregate cyclomatic complexity: 4
+            Mean cyclomatic complexity: 1.00
+            Median cyclomatic complexity: 1.00
+            Conditional Statements: 0
+            Decision density: 0.18
+            Max loop depth: 0
+            Max conditional nesting depth: 0
+            Halstead unique operators: 12
+            Halstead unique operands: 38
+            Halstead operator occurrence: 75
+            Halstead operand occurrence: 73
+            Halstead program length: 148
+            Halstead program vocabulary: 50
+            Halstead program volume: 835.29
+            Halstead program difficulty: 11.53
+            Halstead program effort: 9627.82
+            Halstead bug prediction: 0.28
+            SEI maintainability index: 114.44
+
+            CLASS Convert_cat_csv @ line 8
+                22 lines of CSharp code.
+                0 lines of comment.
+                4 methods.
+                Aggregate cyclomatic complexity: 4
+                Mean cyclomatic complexity: 1.00
+                Median cyclomatic complexity: 1.00
+                Conditional statements: 0
+                Decision density: 0.18
+                Max loop depth: 0
+                Max conditional nesting depth: 0
+                Halstead unique operators: 10
+                Halstead unique operands: 28
+                Halstead operator occurrence: 61
+                Halstead operand occurrence: 60
+                Halstead program length: 121
+                Halstead program vocabulary: 38
+                Halstead program volume: 635.00
+                Halstead program difficulty: 10.71
+                Halstead program effort: 6803.56
+                Halstead bug prediction: 0.21
+                SEI maintainability index: 118.35
+
+                METHOD Convert_cat_csvconstructor @ line 11
+                    4 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.25
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 5
+                    Halstead unique operands: 5
+                    Halstead operator occurrence: 6
+                    Halstead operand occurrence: 6
+                    Halstead program length: 12
+                    Halstead program vocabulary: 10
+                    Halstead program volume: 39.86
+                    Halstead program difficulty: 3.00
+                    Halstead program effort: 119.59
+                    Halstead bug prediction: 0.01
+                    SEI maintainability index: 129.15
+                METHOD Convert_cat_csvconstructor @ line 15
+                    1 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 1.00
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 3
+                    Halstead unique operands: 2
+                    Halstead operator occurrence: 3
+                    Halstead operand occurrence: 2
+                    Halstead program length: 5
+                    Halstead program vocabulary: 5
+                    Halstead program volume: 11.61
+                    Halstead program difficulty: 1.50
+                    Halstead program effort: 17.41
+                    Halstead bug prediction: 0.00
+                    SEI maintainability index: 158.02
+                METHOD fromStr @ line 16
+                    8 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.13
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 7
+                    Halstead unique operands: 19
+                    Halstead operator occurrence: 31
+                    Halstead operand occurrence: 30
+                    Halstead program length: 61
+                    Halstead program vocabulary: 26
+                    Halstead program volume: 286.73
+                    Halstead program difficulty: 5.53
+                    Halstead program effort: 1584.54
+                    Halstead bug prediction: 0.10
+                    SEI maintainability index: 107.66
+                METHOD toStr @ line 25
+                    4 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.25
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 6
+                    Halstead unique operands: 12
+                    Halstead operator occurrence: 16
+                    Halstead operand occurrence: 16
+                    Halstead program length: 32
+                    Halstead program vocabulary: 18
+                    Halstead program volume: 133.44
+                    Halstead program difficulty: 4.00
+                    Halstead program effort: 533.75
+                    Halstead bug prediction: 0.04
+                    SEI maintainability index: 122.87
+
+
+        FILE C:/Users/Tioma/Documents/Visual Studio 2010/Projects/Cats_lvl4/Cats_lvl4/CatConverters/Convert_cat_json.cs
+            35 lines of source.
+            33 lines of CSharp code.
+            0 lines of comment.
+            1 types.
+            4 methods.
+            Aggregate cyclomatic complexity: 4
+            Mean cyclomatic complexity: 1.00
+            Median cyclomatic complexity: 1.00
+            Conditional Statements: 0
+            Decision density: 0.15
+            Max loop depth: 0
+            Max conditional nesting depth: 0
+            Halstead unique operators: 14
+            Halstead unique operands: 45
+            Halstead operator occurrence: 88
+            Halstead operand occurrence: 89
+            Halstead program length: 177
+            Halstead program vocabulary: 59
+            Halstead program volume: 1041.23
+            Halstead program difficulty: 13.84
+            Halstead program effort: 14415.22
+            Halstead bug prediction: 0.35
+            SEI maintainability index: 110.64
+
+            CLASS Convert_cat_json @ line 9
+                26 lines of CSharp code.
+                0 lines of comment.
+                4 methods.
+                Aggregate cyclomatic complexity: 4
+                Mean cyclomatic complexity: 1.00
+                Median cyclomatic complexity: 1.00
+                Conditional statements: 0
+                Decision density: 0.15
+                Max loop depth: 0
+                Max conditional nesting depth: 0
+                Halstead unique operators: 12
+                Halstead unique operands: 33
+                Halstead operator occurrence: 70
+                Halstead operand occurrence: 71
+                Halstead program length: 141
+                Halstead program vocabulary: 45
+                Halstead program volume: 774.35
+                Halstead program difficulty: 12.91
+                Halstead program effort: 9996.17
+                Halstead bug prediction: 0.26
+                SEI maintainability index: 114.50
+
+                METHOD Convert_cat_jsonconstructor @ line 12
+                    4 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.25
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 5
+                    Halstead unique operands: 5
+                    Halstead operator occurrence: 6
+                    Halstead operand occurrence: 6
+                    Halstead program length: 12
+                    Halstead program vocabulary: 10
+                    Halstead program volume: 39.86
+                    Halstead program difficulty: 3.00
+                    Halstead program effort: 119.59
+                    Halstead bug prediction: 0.01
+                    SEI maintainability index: 129.15
+                METHOD Convert_cat_jsonconstructor @ line 16
+                    1 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 1.00
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 3
+                    Halstead unique operands: 2
+                    Halstead operator occurrence: 3
+                    Halstead operand occurrence: 2
+                    Halstead program length: 5
+                    Halstead program vocabulary: 5
+                    Halstead program volume: 11.61
+                    Halstead program difficulty: 1.50
+                    Halstead program effort: 17.41
+                    Halstead bug prediction: 0.00
+                    SEI maintainability index: 158.02
+                METHOD fromStr @ line 17
+                    9 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.11
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 8
+                    Halstead unique operands: 22
+                    Halstead operator occurrence: 38
+                    Halstead operand occurrence: 39
+                    Halstead program length: 77
+                    Halstead program vocabulary: 30
+                    Halstead program volume: 377.83
+                    Halstead program difficulty: 7.09
+                    Halstead program effort: 2679.16
+                    Halstead bug prediction: 0.13
+                    SEI maintainability index: 104.32
+                METHOD toStr @ line 27
+                    7 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.14
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 7
+                    Halstead unique operands: 14
+                    Halstead operator occurrence: 18
+                    Halstead operand occurrence: 18
+                    Halstead program length: 36
+                    Halstead program vocabulary: 21
+                    Halstead program volume: 158.12
+                    Halstead program difficulty: 4.50
+                    Halstead program effort: 711.56
+                    Halstead bug prediction: 0.05
+                    SEI maintainability index: 112.92
+
+
+        FILE C:/Users/Tioma/Documents/Visual Studio 2010/Projects/Cats_lvl4/Cats_lvl4/CatConverters/Convert_cat_xml.cs
+            35 lines of source.
+            33 lines of CSharp code.
+            0 lines of comment.
+            1 types.
+            4 methods.
+            Aggregate cyclomatic complexity: 4
+            Mean cyclomatic complexity: 1.00
+            Median cyclomatic complexity: 1.00
+            Conditional Statements: 0
+            Decision density: 0.15
+            Max loop depth: 0
+            Max conditional nesting depth: 0
+            Halstead unique operators: 14
+            Halstead unique operands: 48
+            Halstead operator occurrence: 100
+            Halstead operand occurrence: 101
+            Halstead program length: 201
+            Halstead program vocabulary: 62
+            Halstead program volume: 1196.79
+            Halstead program difficulty: 14.73
+            Halstead program effort: 17627.77
+            Halstead bug prediction: 0.40
+            SEI maintainability index: 109.56
+
+            CLASS Convert_cat_xml @ line 9
+                26 lines of CSharp code.
+                0 lines of comment.
+                4 methods.
+                Aggregate cyclomatic complexity: 4
+                Mean cyclomatic complexity: 1.00
+                Median cyclomatic complexity: 1.00
+                Conditional statements: 0
+                Decision density: 0.15
+                Max loop depth: 0
+                Max conditional nesting depth: 0
+                Halstead unique operators: 12
+                Halstead unique operands: 36
+                Halstead operator occurrence: 82
+                Halstead operand occurrence: 83
+                Halstead program length: 165
+                Halstead program vocabulary: 48
+                Halstead program volume: 921.52
+                Halstead program difficulty: 13.83
+                Halstead program effort: 12747.68
+                Halstead bug prediction: 0.31
+                SEI maintainability index: 113.42
+
+                METHOD Convert_cat_xmlconstructor @ line 12
+                    4 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.25
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 5
+                    Halstead unique operands: 5
+                    Halstead operator occurrence: 6
+                    Halstead operand occurrence: 6
+                    Halstead program length: 12
+                    Halstead program vocabulary: 10
+                    Halstead program volume: 39.86
+                    Halstead program difficulty: 3.00
+                    Halstead program effort: 119.59
+                    Halstead bug prediction: 0.01
+                    SEI maintainability index: 129.15
+                METHOD Convert_cat_xmlconstructor @ line 16
+                    1 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 1.00
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 3
+                    Halstead unique operands: 2
+                    Halstead operator occurrence: 3
+                    Halstead operand occurrence: 2
+                    Halstead program length: 5
+                    Halstead program vocabulary: 5
+                    Halstead program volume: 11.61
+                    Halstead program difficulty: 1.50
+                    Halstead program effort: 17.41
+                    Halstead bug prediction: 0.00
+                    SEI maintainability index: 158.02
+                METHOD fromStr @ line 17
+                    9 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.11
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 9
+                    Halstead unique operands: 25
+                    Halstead operator occurrence: 50
+                    Halstead operand occurrence: 51
+                    Halstead program length: 101
+                    Halstead program vocabulary: 34
+                    Halstead program volume: 513.83
+                    Halstead program difficulty: 9.18
+                    Halstead program effort: 4716.99
+                    Halstead bug prediction: 0.17
+                    SEI maintainability index: 102.72
+                METHOD toStr @ line 27
+                    7 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.14
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 7
+                    Halstead unique operands: 14
+                    Halstead operator occurrence: 18
+                    Halstead operand occurrence: 18
+                    Halstead program length: 36
+                    Halstead program vocabulary: 21
+                    Halstead program volume: 158.12
+                    Halstead program difficulty: 4.50
+                    Halstead program effort: 711.56
+                    Halstead bug prediction: 0.05
+                    SEI maintainability index: 112.92
+
+
+        FILE C:/Users/Tioma/Documents/Visual Studio 2010/Projects/Cats_lvl4/Cats_lvl4/CatConverters/Convert_cat_yaml.cs
+            35 lines of source.
+            33 lines of CSharp code.
+            0 lines of comment.
+            1 types.
+            4 methods.
+            Aggregate cyclomatic complexity: 4
+            Mean cyclomatic complexity: 1.00
+            Median cyclomatic complexity: 1.00
+            Conditional Statements: 0
+            Decision density: 0.15
+            Max loop depth: 0
+            Max conditional nesting depth: 0
+            Halstead unique operators: 14
+            Halstead unique operands: 45
+            Halstead operator occurrence: 88
+            Halstead operand occurrence: 89
+            Halstead program length: 177
+            Halstead program vocabulary: 59
+            Halstead program volume: 1041.23
+            Halstead program difficulty: 13.84
+            Halstead program effort: 14415.22
+            Halstead bug prediction: 0.35
+            SEI maintainability index: 110.64
+
+            CLASS Convert_cat_yaml @ line 9
+                26 lines of CSharp code.
+                0 lines of comment.
+                4 methods.
+                Aggregate cyclomatic complexity: 4
+                Mean cyclomatic complexity: 1.00
+                Median cyclomatic complexity: 1.00
+                Conditional statements: 0
+                Decision density: 0.15
+                Max loop depth: 0
+                Max conditional nesting depth: 0
+                Halstead unique operators: 12
+                Halstead unique operands: 33
+                Halstead operator occurrence: 70
+                Halstead operand occurrence: 71
+                Halstead program length: 141
+                Halstead program vocabulary: 45
+                Halstead program volume: 774.35
+                Halstead program difficulty: 12.91
+                Halstead program effort: 9996.17
+                Halstead bug prediction: 0.26
+                SEI maintainability index: 114.50
+
+                METHOD Convert_cat_yamlconstructor @ line 12
+                    4 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.25
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 5
+                    Halstead unique operands: 5
+                    Halstead operator occurrence: 6
+                    Halstead operand occurrence: 6
+                    Halstead program length: 12
+                    Halstead program vocabulary: 10
+                    Halstead program volume: 39.86
+                    Halstead program difficulty: 3.00
+                    Halstead program effort: 119.59
+                    Halstead bug prediction: 0.01
+                    SEI maintainability index: 129.15
+                METHOD Convert_cat_yamlconstructor @ line 16
+                    1 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 1.00
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 3
+                    Halstead unique operands: 2
+                    Halstead operator occurrence: 3
+                    Halstead operand occurrence: 2
+                    Halstead program length: 5
+                    Halstead program vocabulary: 5
+                    Halstead program volume: 11.61
+                    Halstead program difficulty: 1.50
+                    Halstead program effort: 17.41
+                    Halstead bug prediction: 0.00
+                    SEI maintainability index: 158.02
+                METHOD fromStr @ line 17
+                    9 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.11
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 8
+                    Halstead unique operands: 22
+                    Halstead operator occurrence: 38
+                    Halstead operand occurrence: 39
+                    Halstead program length: 77
+                    Halstead program vocabulary: 30
+                    Halstead program volume: 377.83
+                    Halstead program difficulty: 7.09
+                    Halstead program effort: 2679.16
+                    Halstead bug prediction: 0.13
+                    SEI maintainability index: 104.32
+                METHOD toStr @ line 27
+                    7 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.14
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 7
+                    Halstead unique operands: 14
+                    Halstead operator occurrence: 18
+                    Halstead operand occurrence: 18
+                    Halstead program length: 36
+                    Halstead program vocabulary: 21
+                    Halstead program volume: 158.12
+                    Halstead program difficulty: 4.50
+                    Halstead program effort: 711.56
+                    Halstead bug prediction: 0.05
+                    SEI maintainability index: 112.92
+
+
+        FILE C:/Users/Tioma/Documents/Visual Studio 2010/Projects/Cats_lvl4/Cats_lvl4/ConverterFactory.cs
+            35 lines of source.
+            37 lines of CSharp code.
+            0 lines of comment.
+            1 types.
+            1 methods.
+            Aggregate cyclomatic complexity: 11
+            Mean cyclomatic complexity: 11.00
+            Median cyclomatic complexity: 11.00
+            Conditional Statements: 10
+            Decision density: 0.38
+            Max loop depth: 0
+            Max conditional nesting depth: 4
+            Max conditional nesting depth position: @ line 20
+            Halstead unique operators: 21
+            Halstead unique operands: 48
+            Halstead operator occurrence: 144
+            Halstead operand occurrence: 86
+            Halstead program length: 230
+            Halstead program vocabulary: 69
+            Halstead program volume: 1404.96
+            Halstead program difficulty: 18.81
+            Halstead program effort: 26430.82
+            Halstead bug prediction: 0.47
+            SEI maintainability index: 75.48
+
+            CLASS ConverterFactory @ line 10
+                29 lines of CSharp code.
+                0 lines of comment.
+                1 methods.
+                Aggregate cyclomatic complexity: 11
+                Mean cyclomatic complexity: 11.00
+                Median cyclomatic complexity: 11.00
+                Conditional statements: 10
+                Decision density: 0.38
+                Max loop depth: 0
+                Max conditional nesting depth: 4
+                Max conditional nesting depth position: @ line 20
+                Halstead unique operators: 19
+                Halstead unique operands: 34
+                Halstead operator occurrence: 124
+                Halstead operand occurrence: 67
+                Halstead program length: 191
+                Halstead program vocabulary: 53
+                Halstead program volume: 1094.03
+                Halstead program difficulty: 18.72
+                Halstead program effort: 20480.94
+                Halstead bug prediction: 0.36
+                SEI maintainability index: 79.42
+
+                METHOD getInstance @ line 17
+                    17 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 11
+                    Conditional statements: 10
+                    Decision density: 0.65
+                    Max loop depth: 0
+                    Max conditional nesting depth: 4
+                    Max conditional nesting depth position:  @ line 20
+                    Halstead unique operators: 17
+                    Halstead unique operands: 25
+                    Halstead operator occurrence: 87
+                    Halstead operand occurrence: 54
+                    Halstead program length: 141
+                    Halstead program vocabulary: 42
+                    Halstead program volume: 760.32
+                    Halstead program difficulty: 18.36
+                    Halstead program effort: 13959.42
+                    Halstead bug prediction: 0.25
+                    SEI maintainability index: 88.08
+
+
+        FILE C:/Users/Tioma/Documents/Visual Studio 2010/Projects/Cats_lvl4/Cats_lvl4/DataStoreges/DS_Mock.cs
+            29 lines of source.
+            27 lines of CSharp code.
+            0 lines of comment.
+            1 types.
+            3 methods.
+            Aggregate cyclomatic complexity: 3
+            Mean cyclomatic complexity: 1.00
+            Median cyclomatic complexity: 1.00
+            Conditional Statements: 0
+            Decision density: 0.14
+            Max loop depth: 0
+            Max conditional nesting depth: 0
+            Halstead unique operators: 13
+            Halstead unique operands: 29
+            Halstead operator occurrence: 59
+            Halstead operand occurrence: 54
+            Halstead program length: 113
+            Halstead program vocabulary: 42
+            Halstead program volume: 609.33
+            Halstead program difficulty: 12.10
+            Halstead program effort: 7375.02
+            Halstead bug prediction: 0.20
+            SEI maintainability index: 111.75
+
+            CLASS DS_Mock @ line 8
+                21 lines of CSharp code.
+                0 lines of comment.
+                3 methods.
+                Aggregate cyclomatic complexity: 3
+                Mean cyclomatic complexity: 1.00
+                Median cyclomatic complexity: 1.00
+                Conditional statements: 0
+                Decision density: 0.14
+                Max loop depth: 0
+                Max conditional nesting depth: 0
+                Halstead unique operators: 11
+                Halstead unique operands: 18
+                Halstead operator occurrence: 44
+                Halstead operand occurrence: 40
+                Halstead program length: 84
+                Halstead program vocabulary: 29
+                Halstead program volume: 408.07
+                Halstead program difficulty: 12.22
+                Halstead program effort: 4987.53
+                Halstead bug prediction: 0.14
+                SEI maintainability index: 115.82
+
+                METHOD DS_Mockconstructor @ line 12
+                    4 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.25
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 5
+                    Halstead unique operands: 6
+                    Halstead operator occurrence: 6
+                    Halstead operand occurrence: 6
+                    Halstead program length: 12
+                    Halstead program vocabulary: 11
+                    Halstead program volume: 41.51
+                    Halstead program difficulty: 2.50
+                    Halstead program effort: 103.78
+                    Halstead bug prediction: 0.01
+                    SEI maintainability index: 128.94
+                METHOD Load @ line 24
+                    4 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.25
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 6
+                    Halstead unique operands: 6
+                    Halstead operator occurrence: 7
+                    Halstead operand occurrence: 5
+                    Halstead program length: 12
+                    Halstead program vocabulary: 12
+                    Halstead program volume: 43.02
+                    Halstead program difficulty: 2.50
+                    Halstead program effort: 107.55
+                    Halstead bug prediction: 0.01
+                    SEI maintainability index: 128.75
+                METHOD Save @ line 17
+                    7 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.14
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 8
+                    Halstead unique operands: 11
+                    Halstead operator occurrence: 24
+                    Halstead operand occurrence: 20
+                    Halstead program length: 44
+                    Halstead program vocabulary: 19
+                    Halstead program volume: 186.91
+                    Halstead program difficulty: 7.27
+                    Halstead program effort: 1359.34
+                    Halstead bug prediction: 0.06
+                    SEI maintainability index: 112.05
+
+
+        FILE C:/Users/Tioma/Documents/Visual Studio 2010/Projects/Cats_lvl4/Cats_lvl4/DataStoreges/DS_csv.cs
+            42 lines of source.
+            41 lines of CSharp code.
+            0 lines of comment.
+            1 types.
+            3 methods.
+            Aggregate cyclomatic complexity: 5
+            Mean cyclomatic complexity: 1.67
+            Median cyclomatic complexity: 2.00
+            Conditional Statements: 2
+            Decision density: 0.15
+            Max loop depth: 1
+            Max loop depth position: @ line 33
+            Max conditional nesting depth: 1
+            Max conditional nesting depth position: @ line 33
+            Halstead unique operators: 17
+            Halstead unique operands: 48
+            Halstead operator occurrence: 106
+            Halstead operand occurrence: 100
+            Halstead program length: 206
+            Halstead program vocabulary: 65
+            Halstead program volume: 1240.61
+            Halstead program difficulty: 17.71
+            Halstead program effort: 21969.10
+            Halstead bug prediction: 0.41
+            SEI maintainability index: 99.13
+
+            CLASS DS_csv @ line 9
+                34 lines of CSharp code.
+                0 lines of comment.
+                3 methods.
+                Aggregate cyclomatic complexity: 5
+                Mean cyclomatic complexity: 1.67
+                Median cyclomatic complexity: 2.00
+                Conditional statements: 2
+                Decision density: 0.15
+                Max loop depth: 1
+                Max loop depth position: @ line 33
+                Max conditional nesting depth: 1
+                Max conditional nesting depth position: @ line 33
+                Halstead unique operators: 15
+                Halstead unique operands: 36
+                Halstead operator occurrence: 89
+                Halstead operand occurrence: 84
+                Halstead program length: 173
+                Halstead program vocabulary: 51
+                Halstead program volume: 981.33
+                Halstead program difficulty: 17.50
+                Halstead program effort: 17173.27
+                Halstead bug prediction: 0.33
+                SEI maintainability index: 102.16
+
+                METHOD DS_csvconstructor @ line 12
+                    4 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.25
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 5
+                    Halstead unique operands: 6
+                    Halstead operator occurrence: 6
+                    Halstead operand occurrence: 6
+                    Halstead program length: 12
+                    Halstead program vocabulary: 11
+                    Halstead program volume: 41.51
+                    Halstead program difficulty: 2.50
+                    Halstead program effort: 103.78
+                    Halstead bug prediction: 0.01
+                    SEI maintainability index: 128.94
+                METHOD Load @ line 27
+                    14 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 2
+                    Conditional statements: 1
+                    Decision density: 0.14
+                    Max loop depth: 1
+                    Max loop depth position:  @ line 33
+                    Max conditional nesting depth: 1
+                    Max conditional nesting depth position:  @ line 33
+                    Halstead unique operators: 11
+                    Halstead unique operands: 24
+                    Halstead operator occurrence: 46
+                    Halstead operand occurrence: 40
+                    Halstead program length: 86
+                    Halstead program vocabulary: 35
+                    Halstead program volume: 441.12
+                    Halstead program difficulty: 9.17
+                    Halstead program effort: 4043.58
+                    Halstead bug prediction: 0.15
+                    SEI maintainability index: 96.12
+                METHOD Save @ line 16
+                    11 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 2
+                    Conditional statements: 1
+                    Decision density: 0.18
+                    Max loop depth: 1
+                    Max loop depth position:  @ line 20
+                    Max conditional nesting depth: 1
+                    Max conditional nesting depth position:  @ line 20
+                    Halstead unique operators: 10
+                    Halstead unique operands: 22
+                    Halstead operator occurrence: 33
+                    Halstead operand occurrence: 33
+                    Halstead program length: 66
+                    Halstead program vocabulary: 32
+                    Halstead program volume: 330.00
+                    Halstead program difficulty: 7.50
+                    Halstead program effort: 2475.00
+                    Halstead bug prediction: 0.11
+                    SEI maintainability index: 101.54
+
+
+        FILE C:/Users/Tioma/Documents/Visual Studio 2010/Projects/Cats_lvl4/Cats_lvl4/DataStoreges/DS_json.cs
+            62 lines of source.
+            61 lines of CSharp code.
+            0 lines of comment.
+            1 types.
+            3 methods.
+            Aggregate cyclomatic complexity: 8
+            Mean cyclomatic complexity: 2.67
+            Median cyclomatic complexity: 3.00
+            Conditional Statements: 5
+            Decision density: 0.15
+            Max loop depth: 1
+            Max loop depth position: @ line 41
+            Max conditional nesting depth: 1
+            Max conditional nesting depth position: @ line 41
+            Halstead unique operators: 26
+            Halstead unique operands: 83
+            Halstead operator occurrence: 198
+            Halstead operand occurrence: 181
+            Halstead program length: 379
+            Halstead program vocabulary: 109
+            Halstead program volume: 2565.14
+            Halstead program difficulty: 28.35
+            Halstead program effort: 72720.23
+            Halstead bug prediction: 0.86
+            SEI maintainability index: 88.10
+
+            CLASS DS_json @ line 10
+                53 lines of CSharp code.
+                0 lines of comment.
+                3 methods.
+                Aggregate cyclomatic complexity: 8
+                Mean cyclomatic complexity: 2.67
+                Median cyclomatic complexity: 3.00
+                Conditional statements: 5
+                Decision density: 0.15
+                Max loop depth: 1
+                Max loop depth position: @ line 41
+                Max conditional nesting depth: 1
+                Max conditional nesting depth position: @ line 41
+                Halstead unique operators: 24
+                Halstead unique operands: 69
+                Halstead operator occurrence: 177
+                Halstead operand occurrence: 160
+                Halstead program length: 337
+                Halstead program vocabulary: 93
+                Halstead program volume: 2203.70
+                Halstead program difficulty: 27.83
+                Halstead program effort: 61320.25
+                Halstead bug prediction: 0.73
+                SEI maintainability index: 90.38
+
+                METHOD DS_jsonconstructor @ line 13
+                    4 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.25
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 5
+                    Halstead unique operands: 6
+                    Halstead operator occurrence: 6
+                    Halstead operand occurrence: 6
+                    Halstead program length: 12
+                    Halstead program vocabulary: 11
+                    Halstead program volume: 41.51
+                    Halstead program difficulty: 2.50
+                    Halstead program effort: 103.78
+                    Halstead bug prediction: 0.01
+                    SEI maintainability index: 128.94
+                METHOD Load @ line 34
+                    27 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 4
+                    Conditional statements: 3
+                    Decision density: 0.15
+                    Max loop depth: 1
+                    Max loop depth position:  @ line 41
+                    Max conditional nesting depth: 1
+                    Max conditional nesting depth position:  @ line 41
+                    Halstead unique operators: 16
+                    Halstead unique operands: 50
+                    Halstead operator occurrence: 100
+                    Halstead operand occurrence: 85
+                    Halstead program length: 185
+                    Halstead program vocabulary: 66
+                    Halstead program volume: 1118.21
+                    Halstead program difficulty: 13.60
+                    Halstead program effort: 15207.70
+                    Halstead bug prediction: 0.37
+                    SEI maintainability index: 80.19
+                METHOD Save @ line 17
+                    17 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 3
+                    Conditional statements: 2
+                    Decision density: 0.18
+                    Max loop depth: 1
+                    Max loop depth position:  @ line 22
+                    Max conditional nesting depth: 1
+                    Max conditional nesting depth position:  @ line 22
+                    Halstead unique operators: 16
+                    Halstead unique operands: 29
+                    Halstead operator occurrence: 67
+                    Halstead operand occurrence: 64
+                    Halstead program length: 131
+                    Halstead program vocabulary: 45
+                    Halstead program volume: 719.43
+                    Halstead program difficulty: 17.66
+                    Halstead program effort: 12701.71
+                    Halstead bug prediction: 0.24
+                    SEI maintainability index: 90.20
+
+
+        FILE C:/Users/Tioma/Documents/Visual Studio 2010/Projects/Cats_lvl4/Cats_lvl4/DataStoreges/DS_xml.cs
+            65 lines of source.
+            64 lines of CSharp code.
+            0 lines of comment.
+            1 types.
+            3 methods.
+            Aggregate cyclomatic complexity: 9
+            Mean cyclomatic complexity: 3.00
+            Median cyclomatic complexity: 2.00
+            Conditional Statements: 6
+            Decision density: 0.16
+            Max loop depth: 1
+            Max loop depth position: @ line 39
+            Max conditional nesting depth: 1
+            Max conditional nesting depth position: @ line 39
+            Halstead unique operators: 21
+            Halstead unique operands: 83
+            Halstead operator occurrence: 205
+            Halstead operand occurrence: 185
+            Halstead program length: 390
+            Halstead program vocabulary: 104
+            Halstead program volume: 2613.17
+            Halstead program difficulty: 23.40
+            Halstead program effort: 61157.66
+            Halstead bug prediction: 0.87
+            SEI maintainability index: 87.13
+
+            CLASS DS_xml @ line 11
+                55 lines of CSharp code.
+                0 lines of comment.
+                3 methods.
+                Aggregate cyclomatic complexity: 9
+                Mean cyclomatic complexity: 3.00
+                Median cyclomatic complexity: 2.00
+                Conditional statements: 6
+                Decision density: 0.16
+                Max loop depth: 1
+                Max loop depth position: @ line 39
+                Max conditional nesting depth: 1
+                Max conditional nesting depth position: @ line 39
+                Halstead unique operators: 19
+                Halstead unique operands: 67
+                Halstead operator occurrence: 181
+                Halstead operand occurrence: 161
+                Halstead program length: 342
+                Halstead program vocabulary: 86
+                Halstead program volume: 2197.78
+                Halstead program difficulty: 22.83
+                Halstead program effort: 50171.77
+                Halstead bug prediction: 0.73
+                SEI maintainability index: 89.59
+
+                METHOD DS_xmlconstructor @ line 14
+                    4 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.25
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 5
+                    Halstead unique operands: 6
+                    Halstead operator occurrence: 6
+                    Halstead operand occurrence: 6
+                    Halstead program length: 12
+                    Halstead program vocabulary: 11
+                    Halstead program volume: 41.51
+                    Halstead program difficulty: 2.50
+                    Halstead program effort: 103.78
+                    Halstead bug prediction: 0.01
+                    SEI maintainability index: 128.94
+                METHOD Load @ line 32
+                    32 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 6
+                    Conditional statements: 5
+                    Decision density: 0.19
+                    Max loop depth: 1
+                    Max loop depth position:  @ line 39
+                    Max conditional nesting depth: 1
+                    Max conditional nesting depth position:  @ line 39
+                    Halstead unique operators: 17
+                    Halstead unique operands: 52
+                    Halstead operator occurrence: 129
+                    Halstead operand occurrence: 108
+                    Halstead program length: 237
+                    Halstead program vocabulary: 69
+                    Halstead program volume: 1447.72
+                    Halstead program difficulty: 17.65
+                    Halstead program effort: 25557.83
+                    Halstead bug prediction: 0.48
+                    SEI maintainability index: 75.63
+                METHOD Save @ line 18
+                    14 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 2
+                    Conditional statements: 1
+                    Decision density: 0.14
+                    Max loop depth: 1
+                    Max loop depth position:  @ line 24
+                    Max conditional nesting depth: 1
+                    Max conditional nesting depth position:  @ line 24
+                    Halstead unique operators: 10
+                    Halstead unique operands: 25
+                    Halstead operator occurrence: 42
+                    Halstead operand occurrence: 42
+                    Halstead program length: 84
+                    Halstead program vocabulary: 35
+                    Halstead program volume: 430.86
+                    Halstead program difficulty: 8.40
+                    Halstead program effort: 3619.22
+                    Halstead bug prediction: 0.14
+                    SEI maintainability index: 96.25
+
+
+        FILE C:/Users/Tioma/Documents/Visual Studio 2010/Projects/Cats_lvl4/Cats_lvl4/DataStoreges/DS_yaml.cs
+            52 lines of source.
+            51 lines of CSharp code.
+            0 lines of comment.
+            1 types.
+            3 methods.
+            Aggregate cyclomatic complexity: 6
+            Mean cyclomatic complexity: 2.00
+            Median cyclomatic complexity: 2.00
+            Conditional Statements: 3
+            Decision density: 0.14
+            Max loop depth: 1
+            Max loop depth position: @ line 35
+            Max conditional nesting depth: 1
+            Max conditional nesting depth position: @ line 35
+            Halstead unique operators: 17
+            Halstead unique operands: 69
+            Halstead operator occurrence: 147
+            Halstead operand occurrence: 139
+            Halstead program length: 286
+            Halstead program vocabulary: 86
+            Halstead program volume: 1837.91
+            Halstead program difficulty: 17.12
+            Halstead program effort: 31470.91
+            Halstead bug prediction: 0.61
+            SEI maintainability index: 93.14
+
+            CLASS DS_yaml @ line 10
+                43 lines of CSharp code.
+                0 lines of comment.
+                3 methods.
+                Aggregate cyclomatic complexity: 6
+                Mean cyclomatic complexity: 2.00
+                Median cyclomatic complexity: 2.00
+                Conditional statements: 3
+                Decision density: 0.14
+                Max loop depth: 1
+                Max loop depth position: @ line 35
+                Max conditional nesting depth: 1
+                Max conditional nesting depth position: @ line 35
+                Halstead unique operators: 15
+                Halstead unique operands: 55
+                Halstead operator occurrence: 126
+                Halstead operand occurrence: 118
+                Halstead program length: 244
+                Halstead program vocabulary: 70
+                Halstead program volume: 1495.55
+                Halstead program difficulty: 16.09
+                Halstead program effort: 24064.68
+                Halstead bug prediction: 0.50
+                SEI maintainability index: 95.90
+
+                METHOD DS_yamlconstructor @ line 13
+                    4 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.25
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 5
+                    Halstead unique operands: 6
+                    Halstead operator occurrence: 6
+                    Halstead operand occurrence: 6
+                    Halstead program length: 12
+                    Halstead program vocabulary: 11
+                    Halstead program volume: 41.51
+                    Halstead program difficulty: 2.50
+                    Halstead program effort: 103.78
+                    Halstead bug prediction: 0.01
+                    SEI maintainability index: 128.94
+                METHOD Load @ line 28
+                    23 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 3
+                    Conditional statements: 2
+                    Decision density: 0.13
+                    Max loop depth: 1
+                    Max loop depth position:  @ line 35
+                    Max conditional nesting depth: 1
+                    Max conditional nesting depth position:  @ line 35
+                    Halstead unique operators: 13
+                    Halstead unique operands: 43
+                    Halstead operator occurrence: 83
+                    Halstead operand occurrence: 74
+                    Halstead program length: 157
+                    Halstead program vocabulary: 56
+                    Halstead program volume: 911.75
+                    Halstead program difficulty: 11.19
+                    Halstead program effort: 10198.93
+                    Halstead bug prediction: 0.30
+                    SEI maintainability index: 84.08
+                METHOD Save @ line 17
+                    11 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 2
+                    Conditional statements: 1
+                    Decision density: 0.18
+                    Max loop depth: 1
+                    Max loop depth position:  @ line 21
+                    Max conditional nesting depth: 1
+                    Max conditional nesting depth position:  @ line 21
+                    Halstead unique operators: 10
+                    Halstead unique operands: 22
+                    Halstead operator occurrence: 33
+                    Halstead operand occurrence: 33
+                    Halstead program length: 66
+                    Halstead program vocabulary: 32
+                    Halstead program volume: 330.00
+                    Halstead program difficulty: 7.50
+                    Halstead program effort: 2475.00
+                    Halstead bug prediction: 0.11
+                    SEI maintainability index: 101.54
+
+
+        FILE C:/Users/Tioma/Documents/Visual Studio 2010/Projects/Cats_lvl4/Cats_lvl4/DsFactory.cs
+            45 lines of source.
+            43 lines of CSharp code.
+            0 lines of comment.
+            1 types.
+            1 methods.
+            Aggregate cyclomatic complexity: 9
+            Mean cyclomatic complexity: 9.00
+            Median cyclomatic complexity: 9.00
+            Conditional Statements: 8
+            Decision density: 0.24
+            Max loop depth: 0
+            Max conditional nesting depth: 2
+            Max conditional nesting depth position: @ line 17
+            Halstead unique operators: 17
+            Halstead unique operands: 35
+            Halstead operator occurrence: 105
+            Halstead operand occurrence: 78
+            Halstead program length: 183
+            Halstead program vocabulary: 52
+            Halstead program volume: 1043.18
+            Halstead program difficulty: 18.94
+            Halstead program effort: 19760.82
+            Halstead bug prediction: 0.35
+            SEI maintainability index: 73.65
+
+            CLASS DsFactory @ line 8
+                37 lines of CSharp code.
+                0 lines of comment.
+                1 methods.
+                Aggregate cyclomatic complexity: 9
+                Mean cyclomatic complexity: 9.00
+                Median cyclomatic complexity: 9.00
+                Conditional statements: 8
+                Decision density: 0.24
+                Max loop depth: 0
+                Max conditional nesting depth: 2
+                Max conditional nesting depth position: @ line 17
+                Halstead unique operators: 15
+                Halstead unique operands: 25
+                Halstead operator occurrence: 91
+                Halstead operand occurrence: 65
+                Halstead program length: 156
+                Halstead program vocabulary: 40
+                Halstead program volume: 830.22
+                Halstead program difficulty: 19.50
+                Halstead program effort: 16189.31
+                Halstead bug prediction: 0.28
+                SEI maintainability index: 76.08
+
+                METHOD getInstance @ line 12
+                    32 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 9
+                    Conditional statements: 8
+                    Decision density: 0.28
+                    Max loop depth: 0
+                    Max conditional nesting depth: 2
+                    Max conditional nesting depth position:  @ line 17
+                    Halstead unique operators: 14
+                    Halstead unique operands: 23
+                    Halstead operator occurrence: 84
+                    Halstead operand occurrence: 58
+                    Halstead program length: 142
+                    Halstead program vocabulary: 37
+                    Halstead program volume: 739.74
+                    Halstead program difficulty: 17.65
+                    Halstead program effort: 13058.06
+                    Halstead bug prediction: 0.25
+                    SEI maintainability index: 78.43
+
+
+        FILE C:/Users/Tioma/Documents/Visual Studio 2010/Projects/Cats_lvl4/Cats_lvl4/IConverter.cs
+            13 lines of source.
+            12 lines of CSharp code.
+            0 lines of comment.
+            1 types.
+            0 methods.
+            Aggregate cyclomatic complexity: 0
+            Mean cyclomatic complexity: 0.00
+            Median cyclomatic complexity: 0.00
+            Conditional Statements: 0
+            Decision density: 0.00
+            Max loop depth: 0
+            Max conditional nesting depth: 0
+            Halstead unique operators: 7
+            Halstead unique operands: 17
+            Halstead operator occurrence: 20
+            Halstead operand occurrence: 22
+            Halstead program length: 42
+            Halstead program vocabulary: 24
+            Halstead program volume: 0.00
+            Halstead program difficulty: 0.00
+            Halstead program effort: 0.00
+            Halstead bug prediction: 0.00
+            SEI maintainability index: 0.00
+
+            CLASS IConverter_custom @ line 8
+                6 lines of CSharp code.
+                0 lines of comment.
+                0 methods.
+                Aggregate cyclomatic complexity: 0
+                Mean cyclomatic complexity: 0.00
+                Median cyclomatic complexity: 0.00
+                Conditional statements: 0
+                Decision density: 0.00
+                Max loop depth: 0
+                Max conditional nesting depth: 0
+                Halstead unique operators: 4
+                Halstead unique operands: 7
+                Halstead operator occurrence: 6
+                Halstead operand occurrence: 9
+                Halstead program length: 15
+                Halstead program vocabulary: 11
+                Halstead program volume: 51.89
+                Halstead program difficulty: 2.57
+                Halstead program effort: 133.44
+                Halstead bug prediction: 0.02
+                SEI maintainability index: no methods
+
+
+
+        FILE C:/Users/Tioma/Documents/Visual Studio 2010/Projects/Cats_lvl4/Cats_lvl4/IDs.cs
+            13 lines of source.
+            12 lines of CSharp code.
+            0 lines of comment.
+            1 types.
+            0 methods.
+            Aggregate cyclomatic complexity: 0
+            Mean cyclomatic complexity: 0.00
+            Median cyclomatic complexity: 0.00
+            Conditional Statements: 0
+            Decision density: 0.00
+            Max loop depth: 0
+            Max conditional nesting depth: 0
+            Halstead unique operators: 8
+            Halstead unique operands: 18
+            Halstead operator occurrence: 22
+            Halstead operand occurrence: 23
+            Halstead program length: 45
+            Halstead program vocabulary: 26
+            Halstead program volume: 0.00
+            Halstead program difficulty: 0.00
+            Halstead program effort: 0.00
+            Halstead bug prediction: 0.00
+            SEI maintainability index: 0.00
+
+            CLASS IDs @ line 8
+                6 lines of CSharp code.
+                0 lines of comment.
+                0 methods.
+                Aggregate cyclomatic complexity: 0
+                Mean cyclomatic complexity: 0.00
+                Median cyclomatic complexity: 0.00
+                Conditional statements: 0
+                Decision density: 0.00
+                Max loop depth: 0
+                Max conditional nesting depth: 0
+                Halstead unique operators: 5
+                Halstead unique operands: 8
+                Halstead operator occurrence: 8
+                Halstead operand occurrence: 10
+                Halstead program length: 18
+                Halstead program vocabulary: 13
+                Halstead program volume: 66.61
+                Halstead program difficulty: 3.13
+                Halstead program effort: 208.15
+                Halstead bug prediction: 0.02
+                SEI maintainability index: no methods
+
+
+
+        FILE C:/Users/Tioma/Documents/Visual Studio 2010/Projects/Cats_lvl4/Cats_lvl4/Properties/AssemblyInfo.cs
+            36 lines of source.
+            15 lines of CSharp code.
+            17 lines of comment.
+            0 types.
+            0 methods.
+            Aggregate cyclomatic complexity: 0
+            Mean cyclomatic complexity: 0.00
+            Median cyclomatic complexity: 0.00
+            Conditional Statements: 0
+            Decision density: 0.00
+            Max loop depth: 0
+            Max conditional nesting depth: 0
+            Halstead unique operators: 6
+            Halstead unique operands: 28
+            Halstead operator occurrence: 47
+            Halstead operand occurrence: 49
+            Halstead program length: 96
+            Halstead program vocabulary: 34
+            Halstead program volume: 0.00
+            Halstead program difficulty: 0.00
+            Halstead program effort: 0.00
+            Halstead bug prediction: 0.00
+            SEI maintainability index: 0.00
+
+
+        FILE C:/Users/Tioma/Documents/Visual Studio 2010/Projects/Cats_lvl4/Cats_lvl4/Tiger.cs
+            41 lines of source.
+            37 lines of CSharp code.
+            0 lines of comment.
+            1 types.
+            4 methods.
+            Aggregate cyclomatic complexity: 11
+            Mean cyclomatic complexity: 2.75
+            Median cyclomatic complexity: 1.00
+            Conditional Statements: 7
+            Decision density: 0.37
+            Max loop depth: 0
+            Max conditional nesting depth: 1
+            Max conditional nesting depth position: @ line 34
+            Halstead unique operators: 17
+            Halstead unique operands: 38
+            Halstead operator occurrence: 115
+            Halstead operand occurrence: 100
+            Halstead program length: 215
+            Halstead program vocabulary: 55
+            Halstead program volume: 1242.99
+            Halstead program difficulty: 22.37
+            Halstead program effort: 27803.78
+            Halstead bug prediction: 0.41
+            SEI maintainability index: 107.29
+
+            CLASS Tiger @ line 9
+                30 lines of CSharp code.
+                0 lines of comment.
+                4 methods.
+                Aggregate cyclomatic complexity: 11
+                Mean cyclomatic complexity: 2.75
+                Median cyclomatic complexity: 1.00
+                Conditional statements: 7
+                Decision density: 0.37
+                Max loop depth: 0
+                Max conditional nesting depth: 1
+                Max conditional nesting depth position: @ line 34
+                Halstead unique operators: 15
+                Halstead unique operands: 26
+                Halstead operator occurrence: 97
+                Halstead operand occurrence: 82
+                Halstead program length: 179
+                Halstead program vocabulary: 41
+                Halstead program volume: 959.00
+                Halstead program difficulty: 23.65
+                Halstead program effort: 22684.08
+                Halstead bug prediction: 0.32
+                SEI maintainability index: 110.69
+
+                METHOD Equals @ line 31
+                    9 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 8
+                    Conditional statements: 7
+                    Decision density: 0.89
+                    Max loop depth: 0
+                    Max conditional nesting depth: 1
+                    Max conditional nesting depth position:  @ line 34
+                    Halstead unique operators: 12
+                    Halstead unique operands: 18
+                    Halstead operator occurrence: 55
+                    Halstead operand occurrence: 33
+                    Halstead program length: 88
+                    Halstead program vocabulary: 30
+                    Halstead program volume: 431.81
+                    Halstead program difficulty: 11.00
+                    Halstead program effort: 4749.87
+                    Halstead bug prediction: 0.14
+                    SEI maintainability index: 102.01
+                METHOD Tigerconstructor @ line 24
+                    1 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 1.00
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 5
+                    Halstead unique operands: 2
+                    Halstead operator occurrence: 6
+                    Halstead operand occurrence: 2
+                    Halstead program length: 8
+                    Halstead program vocabulary: 7
+                    Halstead program volume: 22.46
+                    Halstead program difficulty: 2.50
+                    Halstead program effort: 56.15
+                    Halstead bug prediction: 0.01
+                    SEI maintainability index: 154.59
+                METHOD Tigerconstructor @ line 15
+                    8 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.13
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 8
+                    Halstead unique operands: 17
+                    Halstead operator occurrence: 23
+                    Halstead operand occurrence: 27
+                    Halstead program length: 50
+                    Halstead program vocabulary: 25
+                    Halstead program volume: 232.19
+                    Halstead program difficulty: 6.35
+                    Halstead program effort: 1475.11
+                    Halstead bug prediction: 0.08
+                    SEI maintainability index: 108.76
+                METHOD getWeight @ line 26
+                    4 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.25
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 6
+                    Halstead unique operands: 5
+                    Halstead operator occurrence: 6
+                    Halstead operand occurrence: 5
+                    Halstead program length: 11
+                    Halstead program vocabulary: 11
+                    Halstead program volume: 38.05
+                    Halstead program difficulty: 3.00
+                    Halstead program effort: 114.16
+                    Halstead bug prediction: 0.01
+                    SEI maintainability index: 129.39
+
+
+        FILE C:/Users/Tioma/Documents/Visual Studio 2010/Projects/Cats_lvl4/Cats_lvl4/TigerConverters/Convert_tiger_csv.cs
+            31 lines of source.
+            29 lines of CSharp code.
+            0 lines of comment.
+            1 types.
+            2 methods.
+            Aggregate cyclomatic complexity: 3
+            Mean cyclomatic complexity: 1.50
+            Median cyclomatic complexity: 1.50
+            Conditional Statements: 1
+            Decision density: 0.14
+            Max loop depth: 0
+            Max conditional nesting depth: 1
+            Max conditional nesting depth position: @ line 15
+            Halstead unique operators: 17
+            Halstead unique operands: 51
+            Halstead operator occurrence: 119
+            Halstead operand occurrence: 102
+            Halstead program length: 221
+            Halstead program vocabulary: 68
+            Halstead program volume: 1345.33
+            Halstead program difficulty: 17.00
+            Halstead program effort: 22870.60
+            Halstead bug prediction: 0.45
+            SEI maintainability index: 95.47
+
+            CLASS Convert_tiger_csv @ line 9
+                22 lines of CSharp code.
+                0 lines of comment.
+                2 methods.
+                Aggregate cyclomatic complexity: 3
+                Mean cyclomatic complexity: 1.50
+                Median cyclomatic complexity: 1.50
+                Conditional statements: 1
+                Decision density: 0.14
+                Max loop depth: 0
+                Max conditional nesting depth: 1
+                Max conditional nesting depth position: @ line 15
+                Halstead unique operators: 15
+                Halstead unique operands: 38
+                Halstead operator occurrence: 100
+                Halstead operand occurrence: 83
+                Halstead program length: 183
+                Halstead program vocabulary: 53
+                Halstead program volume: 1048.21
+                Halstead program difficulty: 16.38
+                Halstead program effort: 17171.33
+                Halstead bug prediction: 0.35
+                SEI maintainability index: 99.95
+
+                METHOD fromStr @ line 11
+                    13 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 2
+                    Conditional statements: 1
+                    Decision density: 0.15
+                    Max loop depth: 0
+                    Max conditional nesting depth: 1
+                    Max conditional nesting depth position:  @ line 15
+                    Halstead unique operators: 11
+                    Halstead unique operands: 30
+                    Halstead operator occurrence: 70
+                    Halstead operand occurrence: 56
+                    Halstead program length: 126
+                    Halstead program vocabulary: 41
+                    Halstead program volume: 675.05
+                    Halstead program difficulty: 10.27
+                    Halstead program effort: 6930.53
+                    Halstead bug prediction: 0.23
+                    SEI maintainability index: 95.11
+                METHOD toStr @ line 25
+                    5 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.20
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 9
+                    Halstead unique operands: 16
+                    Halstead operator occurrence: 27
+                    Halstead operand occurrence: 25
+                    Halstead program length: 52
+                    Halstead program vocabulary: 25
+                    Halstead program volume: 241.48
+                    Halstead program difficulty: 7.03
+                    Halstead program effort: 1697.91
+                    Halstead bug prediction: 0.08
+                    SEI maintainability index: 116.17
+
+
+        FILE C:/Users/Tioma/Documents/Visual Studio 2010/Projects/Cats_lvl4/Cats_lvl4/TigerConverters/Convert_tiger_json.cs
+            38 lines of source.
+            36 lines of CSharp code.
+            0 lines of comment.
+            1 types.
+            2 methods.
+            Aggregate cyclomatic complexity: 2
+            Mean cyclomatic complexity: 1.00
+            Median cyclomatic complexity: 1.00
+            Conditional Statements: 0
+            Decision density: 0.07
+            Max loop depth: 0
+            Max conditional nesting depth: 0
+            Halstead unique operators: 15
+            Halstead unique operands: 54
+            Halstead operator occurrence: 118
+            Halstead operand occurrence: 109
+            Halstead program length: 227
+            Halstead program vocabulary: 69
+            Halstead program volume: 1386.64
+            Halstead program difficulty: 15.14
+            Halstead program effort: 20992.11
+            Halstead bug prediction: 0.46
+            SEI maintainability index: 91.96
+
+            CLASS Convert_tiger_json @ line 9
+                29 lines of CSharp code.
+                0 lines of comment.
+                2 methods.
+                Aggregate cyclomatic complexity: 2
+                Mean cyclomatic complexity: 1.00
+                Median cyclomatic complexity: 1.00
+                Conditional statements: 0
+                Decision density: 0.07
+                Max loop depth: 0
+                Max conditional nesting depth: 0
+                Halstead unique operators: 13
+                Halstead unique operands: 41
+                Halstead operator occurrence: 99
+                Halstead operand occurrence: 90
+                Halstead program length: 189
+                Halstead program vocabulary: 54
+                Halstead program volume: 1087.67
+                Halstead program difficulty: 14.27
+                Halstead program effort: 15519.25
+                Halstead bug prediction: 0.36
+                SEI maintainability index: 95.47
+
+                METHOD fromStr @ line 11
+                    12 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.08
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 8
+                    Halstead unique operands: 28
+                    Halstead operator occurrence: 64
+                    Halstead operand occurrence: 58
+                    Halstead program length: 122
+                    Halstead program vocabulary: 36
+                    Halstead program volume: 630.73
+                    Halstead program difficulty: 8.29
+                    Halstead program effort: 5226.06
+                    Halstead bug prediction: 0.21
+                    SEI maintainability index: 96.99
+                METHOD toStr @ line 24
+                    13 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.08
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 10
+                    Halstead unique operands: 21
+                    Halstead operator occurrence: 32
+                    Halstead operand occurrence: 30
+                    Halstead program length: 62
+                    Halstead program vocabulary: 31
+                    Halstead program volume: 307.16
+                    Halstead program difficulty: 7.14
+                    Halstead program effort: 2194.00
+                    Halstead bug prediction: 0.10
+                    SEI maintainability index: 99.44
+
+
+        FILE C:/Users/Tioma/Documents/Visual Studio 2010/Projects/Cats_lvl4/Cats_lvl4/TigerConverters/Convert_tiger_xml.cs
+            35 lines of source.
+            33 lines of CSharp code.
+            0 lines of comment.
+            1 types.
+            2 methods.
+            Aggregate cyclomatic complexity: 2
+            Mean cyclomatic complexity: 1.00
+            Median cyclomatic complexity: 1.00
+            Conditional Statements: 0
+            Decision density: 0.08
+            Max loop depth: 0
+            Max conditional nesting depth: 0
+            Halstead unique operators: 15
+            Halstead unique operands: 56
+            Halstead operator occurrence: 134
+            Halstead operand occurrence: 125
+            Halstead program length: 259
+            Halstead program vocabulary: 71
+            Halstead program volume: 1592.78
+            Halstead program difficulty: 16.74
+            Halstead program effort: 26664.92
+            Halstead bug prediction: 0.53
+            SEI maintainability index: 92.45
+
+            CLASS Convert_tiger_xml @ line 9
+                26 lines of CSharp code.
+                0 lines of comment.
+                2 methods.
+                Aggregate cyclomatic complexity: 2
+                Mean cyclomatic complexity: 1.00
+                Median cyclomatic complexity: 1.00
+                Conditional statements: 0
+                Decision density: 0.08
+                Max loop depth: 0
+                Max conditional nesting depth: 0
+                Halstead unique operators: 13
+                Halstead unique operands: 43
+                Halstead operator occurrence: 115
+                Halstead operand occurrence: 106
+                Halstead program length: 221
+                Halstead program vocabulary: 56
+                Halstead program volume: 1283.43
+                Halstead program difficulty: 16.02
+                Halstead program effort: 20564.65
+                Halstead bug prediction: 0.43
+                SEI maintainability index: 96.31
+
+                METHOD fromStr @ line 11
+                    12 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.08
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 9
+                    Halstead unique operands: 30
+                    Halstead operator occurrence: 80
+                    Halstead operand occurrence: 74
+                    Halstead program length: 154
+                    Halstead program vocabulary: 39
+                    Halstead program volume: 813.95
+                    Halstead program difficulty: 11.10
+                    Halstead program effort: 9034.87
+                    Halstead bug prediction: 0.27
+                    SEI maintainability index: 95.66
+                METHOD toStr @ line 24
+                    10 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.10
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 10
+                    Halstead unique operands: 21
+                    Halstead operator occurrence: 32
+                    Halstead operand occurrence: 30
+                    Halstead program length: 62
+                    Halstead program vocabulary: 31
+                    Halstead program volume: 307.16
+                    Halstead program difficulty: 7.14
+                    Halstead program effort: 2194.00
+                    Halstead bug prediction: 0.10
+                    SEI maintainability index: 103.69
+
+
+        FILE C:/Users/Tioma/Documents/Visual Studio 2010/Projects/Cats_lvl4/Cats_lvl4/TigerConverters/Convert_tiger_yaml.cs
+            38 lines of source.
+            36 lines of CSharp code.
+            0 lines of comment.
+            1 types.
+            2 methods.
+            Aggregate cyclomatic complexity: 2
+            Mean cyclomatic complexity: 1.00
+            Median cyclomatic complexity: 1.00
+            Conditional Statements: 0
+            Decision density: 0.07
+            Max loop depth: 0
+            Max conditional nesting depth: 0
+            Halstead unique operators: 15
+            Halstead unique operands: 53
+            Halstead operator occurrence: 117
+            Halstead operand occurrence: 108
+            Halstead program length: 225
+            Halstead program vocabulary: 68
+            Halstead program volume: 1369.68
+            Halstead program difficulty: 15.28
+            Halstead program effort: 20932.83
+            Halstead bug prediction: 0.46
+            SEI maintainability index: 92.03
+
+            CLASS Convert_tiger_yaml @ line 9
+                29 lines of CSharp code.
+                0 lines of comment.
+                2 methods.
+                Aggregate cyclomatic complexity: 2
+                Mean cyclomatic complexity: 1.00
+                Median cyclomatic complexity: 1.00
+                Conditional statements: 0
+                Decision density: 0.07
+                Max loop depth: 0
+                Max conditional nesting depth: 0
+                Halstead unique operators: 13
+                Halstead unique operands: 40
+                Halstead operator occurrence: 98
+                Halstead operand occurrence: 89
+                Halstead program length: 187
+                Halstead program vocabulary: 53
+                Halstead program volume: 1071.12
+                Halstead program difficulty: 14.46
+                Halstead program effort: 15491.09
+                Halstead bug prediction: 0.36
+                SEI maintainability index: 95.54
+
+                METHOD fromStr @ line 11
+                    12 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.08
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 8
+                    Halstead unique operands: 28
+                    Halstead operator occurrence: 64
+                    Halstead operand occurrence: 58
+                    Halstead program length: 122
+                    Halstead program vocabulary: 36
+                    Halstead program volume: 630.73
+                    Halstead program difficulty: 8.29
+                    Halstead program effort: 5226.06
+                    Halstead bug prediction: 0.21
+                    SEI maintainability index: 96.99
+                METHOD toStr @ line 24
+                    13 lines of CSharp code.
+                    0 lines of comment.
+                    Cyclomatic complexity: 1
+                    Conditional statements: 0
+                    Decision density: 0.08
+                    Max loop depth: 0
+                    Max conditional nesting depth: 0
+                    Halstead unique operators: 10
+                    Halstead unique operands: 20
+                    Halstead operator occurrence: 31
+                    Halstead operand occurrence: 29
+                    Halstead program length: 60
+                    Halstead program vocabulary: 30
+                    Halstead program volume: 294.41
+                    Halstead program difficulty: 7.25
+                    Halstead program effort: 2134.50
+                    Halstead bug prediction: 0.10
+                    SEI maintainability index: 99.66
+
+
+******************** End Metrics *************************
