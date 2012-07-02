@@ -15,8 +15,8 @@ namespace Cats_lvl4_tests
         List<Cat> result4;
         List<Cat> result1;
         List<Cat> result0;
-        static string file_path = @"C:/Users/Tioma/Documents/Visual Studio 2010/Projects/Cats_lvl4/Cats_lvl4/bin/Debug/";
-        string path;        
+        static string file_path = @"C:/BuildAgent/work/9839fd882d9d77f0/Cats_lvl4/bin/Debug/";
+        string path;
         static public IDs[] ds0 = { new DS_csv(file_path + "cats_0_ideal.csv"),
                                      new DS_xml(file_path + "cats_0_ideal.xml"),
                                      new DS_xml_sax(file_path + "cats_0_ideal.sxml"),
@@ -64,7 +64,7 @@ namespace Cats_lvl4_tests
         [SetUp]
         public void SetUp()
         {
-            this.path = @"C:/Users/Tioma/Documents/Visual Studio 2010/Projects/Cats_lvl4/Cats_lvl4/bin/Debug/";
+            this.path = @"C:/BuildAgent/work/9839fd882d9d77f0/Cats_lvl4/bin/Debug/";
             result4 = new List<Cat>(){ new Bobcat(12345, "большой","том", 5, 4.5f), 
                 new Bobcat(54321, "маленький","джой",6,3.2f), 
                 new Tiger("Канада", "Серый", 2.2f, true,"рой",8,80.5f), 
@@ -93,12 +93,12 @@ namespace Cats_lvl4_tests
 
         [Test, TestCaseSource("ds0_save")]
         public void NullItemTestSave(IDs ds)
-        {            
+        {
             ds.Save(result0);
             Stream expectedStream = File.OpenRead(ds.getPath());
             string ext = ds.getPath().Split('.')[1];
             Stream actualStream = File.OpenRead(this.path + "cats_0_ideal." + ext);
-            Assert.That(actualStream, Is.EqualTo(expectedStream));            
+            Assert.That(actualStream, Is.EqualTo(expectedStream));
         }
 
         [Test, TestCaseSource("ds1_save")]
@@ -123,7 +123,7 @@ namespace Cats_lvl4_tests
 
         [TestFixtureTearDown]
         public void CleanFiles()
-        {            
+        {
             File.Delete(file_path + "cats_0.csv");
             File.Delete(file_path + "cats_0.xml");
             File.Delete(file_path + "cats_0.sxml");
