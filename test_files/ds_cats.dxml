@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<content>
-  <bobcat hear_count="12345" cat_type="большой" name="том" age="5" weight="4,5" />
-  <bobcat hear_count="54321" cat_type="маленький" name="джой" age="6" weight="3,2" />
-  <tiger location="Канада" color="Серый" height="2,2" is_hungry="True" name="рой" age="8" weight="80,5" />
-  <tiger location="Африка" color="Оранжевый" height="2,2" is_hungry="True" name="мак" age="10" weight="105,1" />
-</content>

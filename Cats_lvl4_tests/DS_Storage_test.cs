@@ -38,168 +38,168 @@ namespace Cats_lvl4_tests
                                                new object[] { file_path + "cats_4.", file_path + "cats_4_ideal.", result4 }};
 
                             
-        [Test, TestCaseSource("ds")]
-        public void ALL_storages_test(IDs ds)
-        {            
-            ds.Save(result0);
-            Assert.AreEqual(ds.Load(),result0);
-            ds.Save(result1);
-            Assert.AreEqual(ds.Load(), result1);
-            ds.Save(result4);            
-        }
+        //[Test, TestCaseSource("ds")]
+        //public void ALL_storages_test(IDs ds)
+        //{            
+        //    ds.Save(result0);
+        //    Assert.AreEqual(ds.Load(),result0);
+        //    ds.Save(result1);
+        //    Assert.AreEqual(ds.Load(), result1);
+        //    ds.Save(result4);            
+        //}
 
-        [Test, TestCaseSource("ds_load")]
-        public void DS_csv_load_test(string path, List<Cat> result)
+        //[Test, TestCaseSource("ds_load")]
+        //public void DS_csv_load_test(string path, List<Cat> result)
 
-        {
-            Assert.AreEqual((new DS_csv(path + "csv")).Load(), result);           
-        }
+        //{
+        //    Assert.AreEqual((new DS_csv(path + "csv")).Load(), result);           
+        //}
 
-        [Test, TestCaseSource("ds_load")]
-        public void DS_xml_load_test(string path, List<Cat> result)
-        {
-            Assert.AreEqual((new DS_xml(path + "xml")).Load(), result);
-        }
+        //[Test, TestCaseSource("ds_load")]
+        //public void DS_xml_load_test(string path, List<Cat> result)
+        //{
+        //    Assert.AreEqual((new DS_xml(path + "xml")).Load(), result);
+        //}
 
-        [Test, TestCaseSource("ds_load")]
-        public void DS_xml_sax_load_test(string path, List<Cat> result)
-        {
-            Assert.AreEqual((new DS_xml_sax(path + "sxml")).Load(), result);
-        }
+        //[Test, TestCaseSource("ds_load")]
+        //public void DS_xml_sax_load_test(string path, List<Cat> result)
+        //{
+        //    Assert.AreEqual((new DS_xml_sax(path + "sxml")).Load(), result);
+        //}
 
-        [Test, TestCaseSource("ds_load")]
-        public void DS_xml_dom_load_test(string path, List<Cat> result)
-        {
-            Assert.AreEqual((new DS_xml_dom(path + "dxml")).Load(), result);
-        }
+        //[Test, TestCaseSource("ds_load")]
+        //public void DS_xml_dom_load_test(string path, List<Cat> result)
+        //{
+        //    Assert.AreEqual((new DS_xml_dom(path + "dxml")).Load(), result);
+        //}
 
-        [Test, TestCaseSource("ds_load")]
-        public void DS_xml_dom_2_load_test(string path, List<Cat> result)
-        {
-            Assert.AreEqual((new DS_xml_dom_2(path + "ddxml")).Load(), result);
-        }
+        //[Test, TestCaseSource("ds_load")]
+        //public void DS_xml_dom_2_load_test(string path, List<Cat> result)
+        //{
+        //    Assert.AreEqual((new DS_xml_dom_2(path + "ddxml")).Load(), result);
+        //}
 
-        [Test, TestCaseSource("ds_load")]
-        public void DS_json_load_test(string path, List<Cat> result)
-        {
-            Assert.AreEqual((new DS_json(path + "json")).Load(), result);
-        }
+        //[Test, TestCaseSource("ds_load")]
+        //public void DS_json_load_test(string path, List<Cat> result)
+        //{
+        //    Assert.AreEqual((new DS_json(path + "json")).Load(), result);
+        //}
 
-        [Test, TestCaseSource("ds_load")]
-        public void DS_yaml_load_test(string path, List<Cat> result)
-        {
-            Assert.AreEqual((new DS_yaml(path + "yaml")).Load(), result);
-        }
-
-        [Test, TestCaseSource("ds_save")]
-        public void DS_csv_save_test(string fsave, string fideal, List<Cat> result)
-        {
-            IDs ds = new DS_csv(fsave + "csv");
-            ds.Save(result);
-            Stream expectedStream = File.OpenRead(fsave + "csv");
-            Stream actualStream = File.OpenRead(fideal + "csv");
-            Assert.That(actualStream, Is.EqualTo(expectedStream));            
-            expectedStream.Close();
-            actualStream.Close();
-        }
-
-        [Test, TestCaseSource("ds_save")]
-        public void DS_xml_save_test(string fsave, string fideal, List<Cat> result)
-        {
-            IDs ds = new DS_xml(fsave + "xml");
-            ds.Save(result);
-            Stream expectedStream = File.OpenRead(fsave + "xml");
-            Stream actualStream = File.OpenRead(fideal + "xml");
-            Assert.That(actualStream, Is.EqualTo(expectedStream));
-            expectedStream.Close();
-            actualStream.Close();
-        }
+        //[Test, TestCaseSource("ds_load")]
+        //public void DS_yaml_load_test(string path, List<Cat> result)
+        //{
+        //    Assert.AreEqual((new DS_yaml(path + "yaml")).Load(), result);
+        //}
 
         //[Test, TestCaseSource("ds_save")]
-        //public void DS_xml_sax_save_test(string fsave, string fideal, List<Cat> result)
+        //public void DS_csv_save_test(string fsave, string fideal, List<Cat> result)
         //{
-        //    IDs ds = new DS_xml_sax(fsave + "sxml");
+        //    IDs ds = new DS_csv(fsave + "csv");
         //    ds.Save(result);
-        //    Stream expectedStream = File.OpenRead(fsave + "sxml");
-        //    Stream actualStream = File.OpenRead(fideal + "sxml");
+        //    Stream expectedStream = File.OpenRead(fsave + "csv");
+        //    Stream actualStream = File.OpenRead(fideal + "csv");
+        //    Assert.That(actualStream, Is.EqualTo(expectedStream));            
+        //    expectedStream.Close();
+        //    actualStream.Close();
+        //}
+
+        //[Test, TestCaseSource("ds_save")]
+        //public void DS_xml_save_test(string fsave, string fideal, List<Cat> result)
+        //{
+        //    IDs ds = new DS_xml(fsave + "xml");
+        //    ds.Save(result);
+        //    Stream expectedStream = File.OpenRead(fsave + "xml");
+        //    Stream actualStream = File.OpenRead(fideal + "xml");
         //    Assert.That(actualStream, Is.EqualTo(expectedStream));
         //    expectedStream.Close();
         //    actualStream.Close();
         //}
 
-        [Test, TestCaseSource("ds_save")]
-        public void DS_xml_dom_save_test(string fsave, string fideal, List<Cat> result)
-        {
-            IDs ds = new DS_xml_dom(fsave + "dxml");
-            ds.Save(result);
-            Stream expectedStream = File.OpenRead(fsave + "dxml");
-            Stream actualStream = File.OpenRead(fideal + "dxml");
-            Assert.That(actualStream, Is.EqualTo(expectedStream));
-            expectedStream.Close();
-            actualStream.Close();
-        }
+        ////[Test, TestCaseSource("ds_save")]
+        ////public void DS_xml_sax_save_test(string fsave, string fideal, List<Cat> result)
+        ////{
+        ////    IDs ds = new DS_xml_sax(fsave + "sxml");
+        ////    ds.Save(result);
+        ////    Stream expectedStream = File.OpenRead(fsave + "sxml");
+        ////    Stream actualStream = File.OpenRead(fideal + "sxml");
+        ////    Assert.That(actualStream, Is.EqualTo(expectedStream));
+        ////    expectedStream.Close();
+        ////    actualStream.Close();
+        ////}
 
-        [Test, TestCaseSource("ds_save")]
-        public void DS_xml_dom_2_save_test(string fsave, string fideal, List<Cat> result)
-        {
-            IDs ds = new DS_xml_dom_2(fsave + "ddxml");
-            ds.Save(result);
-            Stream expectedStream = File.OpenRead(fsave + "ddxml");
-            Stream actualStream = File.OpenRead(fideal + "ddxml");
-            Assert.That(actualStream, Is.EqualTo(expectedStream));
-            expectedStream.Close();
-            actualStream.Close();
-        }
+        //[Test, TestCaseSource("ds_save")]
+        //public void DS_xml_dom_save_test(string fsave, string fideal, List<Cat> result)
+        //{
+        //    IDs ds = new DS_xml_dom(fsave + "dxml");
+        //    ds.Save(result);
+        //    Stream expectedStream = File.OpenRead(fsave + "dxml");
+        //    Stream actualStream = File.OpenRead(fideal + "dxml");
+        //    Assert.That(actualStream, Is.EqualTo(expectedStream));
+        //    expectedStream.Close();
+        //    actualStream.Close();
+        //}
 
-        [Test, TestCaseSource("ds_save")]
-        public void DS_json_save_test(string fsave, string fideal, List<Cat> result)
-        {
-            IDs ds = new DS_json(fsave + "json");
-            ds.Save(result);
-            Stream expectedStream = File.OpenRead(fsave + "json");
-            Stream actualStream = File.OpenRead(fideal + "json");
-            Assert.That(actualStream, Is.EqualTo(expectedStream));
-            expectedStream.Close();
-            actualStream.Close();
-        }
+        //[Test, TestCaseSource("ds_save")]
+        //public void DS_xml_dom_2_save_test(string fsave, string fideal, List<Cat> result)
+        //{
+        //    IDs ds = new DS_xml_dom_2(fsave + "ddxml");
+        //    ds.Save(result);
+        //    Stream expectedStream = File.OpenRead(fsave + "ddxml");
+        //    Stream actualStream = File.OpenRead(fideal + "ddxml");
+        //    Assert.That(actualStream, Is.EqualTo(expectedStream));
+        //    expectedStream.Close();
+        //    actualStream.Close();
+        //}
 
-        [Test, TestCaseSource("ds_save")]
-        public void DS_yaml_save_test(string fsave, string fideal, List<Cat> result)
-        {
-            IDs ds = new DS_yaml(fsave + "yaml");
-            ds.Save(result);
-            Stream expectedStream = File.OpenRead(fsave + "yaml");
-            Stream actualStream = File.OpenRead(fideal + "yaml");
-            Assert.That(actualStream, Is.EqualTo(expectedStream));
-            expectedStream.Close();
-            actualStream.Close();
-        }
+        //[Test, TestCaseSource("ds_save")]
+        //public void DS_json_save_test(string fsave, string fideal, List<Cat> result)
+        //{
+        //    IDs ds = new DS_json(fsave + "json");
+        //    ds.Save(result);
+        //    Stream expectedStream = File.OpenRead(fsave + "json");
+        //    Stream actualStream = File.OpenRead(fideal + "json");
+        //    Assert.That(actualStream, Is.EqualTo(expectedStream));
+        //    expectedStream.Close();
+        //    actualStream.Close();
+        //}
 
-        [TestFixtureTearDown]
-        public void CleanFiles()
-        {
-            File.Delete(file_path + "ds_cats.csv");
-            File.Delete(file_path + "ds_cats.xml");
-            File.Delete(file_path + "ds_cats.json");
-            File.Delete(file_path + "ds_cats.yaml");
-            File.Delete(file_path + "cats_0.csv");
-            File.Delete(file_path + "cats_0.xml");
-            File.Delete(file_path + "cats_0.dxml");
-            File.Delete(file_path + "cats_0.ddxml");
-            File.Delete(file_path + "cats_0.json");
-            File.Delete(file_path + "cats_0.yaml");
-            File.Delete(file_path + "cats_1.csv");
-            File.Delete(file_path + "cats_1.xml");
-            File.Delete(file_path + "cats_1.dxml");
-            File.Delete(file_path + "cats_1.ddxml");
-            File.Delete(file_path + "cats_1.json");
-            File.Delete(file_path + "cats_1.yaml");
-            File.Delete(file_path + "cats_4.csv");
-            File.Delete(file_path + "cats_4.xml");
-            File.Delete(file_path + "cats_4.dxml");
-            File.Delete(file_path + "cats_4.ddxml");
-            File.Delete(file_path + "cats_4.json");
-            File.Delete(file_path + "cats_4.yaml");
-        }
+        //[Test, TestCaseSource("ds_save")]
+        //public void DS_yaml_save_test(string fsave, string fideal, List<Cat> result)
+        //{
+        //    IDs ds = new DS_yaml(fsave + "yaml");
+        //    ds.Save(result);
+        //    Stream expectedStream = File.OpenRead(fsave + "yaml");
+        //    Stream actualStream = File.OpenRead(fideal + "yaml");
+        //    Assert.That(actualStream, Is.EqualTo(expectedStream));
+        //    expectedStream.Close();
+        //    actualStream.Close();
+        //}
+
+        //[TestFixtureTearDown]
+        //public void CleanFiles()
+        //{
+        //    File.Delete(file_path + "ds_cats.csv");
+        //    File.Delete(file_path + "ds_cats.xml");
+        //    File.Delete(file_path + "ds_cats.json");
+        //    File.Delete(file_path + "ds_cats.yaml");
+        //    File.Delete(file_path + "cats_0.csv");
+        //    File.Delete(file_path + "cats_0.xml");
+        //    File.Delete(file_path + "cats_0.dxml");
+        //    File.Delete(file_path + "cats_0.ddxml");
+        //    File.Delete(file_path + "cats_0.json");
+        //    File.Delete(file_path + "cats_0.yaml");
+        //    File.Delete(file_path + "cats_1.csv");
+        //    File.Delete(file_path + "cats_1.xml");
+        //    File.Delete(file_path + "cats_1.dxml");
+        //    File.Delete(file_path + "cats_1.ddxml");
+        //    File.Delete(file_path + "cats_1.json");
+        //    File.Delete(file_path + "cats_1.yaml");
+        //    File.Delete(file_path + "cats_4.csv");
+        //    File.Delete(file_path + "cats_4.xml");
+        //    File.Delete(file_path + "cats_4.dxml");
+        //    File.Delete(file_path + "cats_4.ddxml");
+        //    File.Delete(file_path + "cats_4.json");
+        //    File.Delete(file_path + "cats_4.yaml");
+        //}
     }
 }
