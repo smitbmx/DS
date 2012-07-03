@@ -101,6 +101,8 @@ namespace Cats_lvl4_tests
             string ext = ds.getPath().Split('.')[1];
             Stream actualStream = File.OpenRead(this.path + "cats_0_ideal." + ext);
             Assert.That(actualStream, Is.EqualTo(expectedStream));
+            expectedStream.Close();
+            actualStream.Close();
         }
 
         [Test, TestCaseSource("ds1_save")]
@@ -111,6 +113,8 @@ namespace Cats_lvl4_tests
             string ext = ds.getPath().Split('.')[1];
             Stream actualStream = File.OpenRead(this.path + "cats_1_ideal." + ext);
             Assert.That(actualStream, Is.EqualTo(expectedStream));
+            expectedStream.Close();
+            actualStream.Close();
         }
 
         [Test, TestCaseSource("ds4_save")]
@@ -121,6 +125,8 @@ namespace Cats_lvl4_tests
             string ext = ds.getPath().Split('.')[1];
             Stream actualStream = File.OpenRead(this.path + "cats_4_ideal." + ext);
             Assert.That(actualStream, Is.EqualTo(expectedStream));
+            expectedStream.Close();
+            actualStream.Close();
         }
 
         [TestFixtureTearDown]

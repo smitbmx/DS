@@ -1,7 +1,0 @@
-﻿- ClassObject_bobcat:
-  - name: том
-  - age: "5"
-  - weight: "4,5"
-  - hear_count: "12345"
-  - cat_type: большой
----
