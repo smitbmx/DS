@@ -67,6 +67,7 @@
     <Compile Include="IDs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SAX_parser.cs" />
+    <Compile Include="Settings.cs" />
     <Compile Include="Tiger.cs" />
     <Compile Include="TigerConverters\Convert_tiger_csv.cs" />
     <Compile Include="TigerConverters\Convert_tiger_json.cs" />

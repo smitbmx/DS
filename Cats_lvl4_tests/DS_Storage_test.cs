@@ -13,8 +13,7 @@ namespace Cats_lvl4_tests
     [TestFixture]
     public class DS_Storage_test
     {
-        static string file_path = Assembly.GetExecutingAssembly().Location + "/test_files/";
-        //static string file_path = @"c:/Users/Tioma/Documents/Visual Studio 2010/GIT/DS_Cats/test_files/";
+        static string file_path = Settings.TestFilePath;
         static List<Cat> result4 = new List<Cat>(){ new Bobcat(12345, "большой","том", 5, 4.5f), 
                 new Bobcat(54321, "маленький","джой",6,3.2f), 
                 new Tiger("Канада", "Серый", 2.2f, true,"рой",8,80.5f), 

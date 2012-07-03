@@ -16,8 +16,7 @@ namespace Cats_lvl4_tests
         List<Cat> result4;
         List<Cat> result1;
         List<Cat> result0;
-        //static string file_path = @"c:/Users/Tioma/Documents/Visual Studio 2010/GIT/DS_Cats/test_files/";
-        static string file_path = Assembly.GetExecutingAssembly().Location + "/test_files/";
+        static string file_path = Settings.TestFilePath;
         string path;
         static public IDs[] ds0 = { new DS_csv(file_path + "cats_0_ideal.csv"),
                                      new DS_xml(file_path + "cats_0_ideal.xml"),
@@ -50,14 +49,14 @@ namespace Cats_lvl4_tests
                                      new DS_yaml(file_path + "cats_0.yaml")};
         static public IDs[] ds1_save = { new DS_csv(file_path + "cats_1.csv"),
                                      new DS_xml(file_path + "cats_1.xml"),
-                                     new DS_xml_sax(file_path + "cats_1.sxml"),
+                                     //new DS_xml_sax(file_path + "cats_1.sxml"),
                                      new DS_xml_dom(file_path + "cats_1.dxml"),
                                      new DS_xml_dom_2(file_path + "cats_1.ddxml"),
                                      new DS_json(file_path + "cats_1.json"),
                                      new DS_yaml(file_path + "cats_1.yaml")};
         static public IDs[] ds4_save = { new DS_csv(file_path + "cats_4.csv"),
                                      new DS_xml(file_path + "cats_4.xml"),
-                                     new DS_xml_sax(file_path + "cats_4.sxml"),
+                                     //new DS_xml_sax(file_path + "cats_4.sxml"),
                                      new DS_xml_dom(file_path + "cats_4.dxml"),
                                      new DS_xml_dom_2(file_path + "cats_4.ddxml"),
                                      new DS_json(file_path + "cats_4.json"),
@@ -66,7 +65,8 @@ namespace Cats_lvl4_tests
         [SetUp]
         public void SetUp()
         {
-            this.path = @"C:/BuildAgent/work/9839fd882d9d77f0/Cats_lvl4/bin/Debug/";
+            //this.path = @"C:/BuildAgent/work/9839fd882d9d77f0/Cats_lvl4/bin/Debug/";
+            this.path = Settings.TestFilePath;
             result4 = new List<Cat>(){ new Bobcat(12345, "большой","том", 5, 4.5f), 
                 new Bobcat(54321, "маленький","джой",6,3.2f), 
                 new Tiger("Канада", "Серый", 2.2f, true,"рой",8,80.5f), 

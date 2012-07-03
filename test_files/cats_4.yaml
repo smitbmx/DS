@@ -1,0 +1,32 @@
+﻿- ClassObject_bobcat:
+  - name: том
+  - age: "5"
+  - weight: "4,5"
+  - hear_count: "12345"
+  - cat_type: большой
+---
+- ClassObject_bobcat:
+  - name: джой
+  - age: "6"
+  - weight: "3,2"
+  - hear_count: "54321"
+  - cat_type: маленький
+---
+- ClassObject_tiger:
+  - name: рой
+  - age: "8"
+  - weight: "80,5"
+  - location: Канада
+  - color: Серый
+  - height: "2,2"
+  - is_hungry: "True"
+---
+- ClassObject_tiger:
+  - name: мак
+  - age: "10"
+  - weight: "105,1"
+  - location: Африка
+  - color: Оранжевый
+  - height: "2,2"
+  - is_hungry: "True"
+---
