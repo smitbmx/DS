@@ -62,96 +62,96 @@ namespace Cats_lvl4_tests
                                      new DS_json(file_path + "cats_4.json"),
                                      new DS_yaml(file_path + "cats_4.yaml")};
 
-        //[SetUp]
-        //public void SetUp()
-        //{
-        //    this.path = Settings.TestFilePath;
-        //    result4 = new List<Cat>(){ new Bobcat(12345, "большой","том", 5, 4.5f), 
-        //        new Bobcat(54321, "маленький","джой",6,3.2f), 
-        //        new Tiger("Канада", "Серый", 2.2f, true,"рой",8,80.5f), 
-        //        new Tiger("Африка", "Оранжевый", 2.2f, true, "мак", 10, 105.1f) };
-        //    result1 = new List<Cat>() { new Bobcat(12345, "большой", "том", 5, 4.5f) };
-        //    result0 = new List<Cat>();
-        //}
+        [SetUp]
+        public void SetUp()
+        {
+            this.path = Settings.TestFilePath;
+            result4 = new List<Cat>(){ new Bobcat(12345, "большой","том", 5, 4.5f), 
+                new Bobcat(54321, "маленький","джой",6,3.2f), 
+                new Tiger("Канада", "Серый", 2.2f, true,"рой",8,80.5f), 
+                new Tiger("Африка", "Оранжевый", 2.2f, true, "мак", 10, 105.1f) };
+            result1 = new List<Cat>() { new Bobcat(12345, "большой", "том", 5, 4.5f) };
+            result0 = new List<Cat>();
+        }
 
-        //[Test, TestCaseSource("ds0")]
-        //public void NullItemTestLoad(IDs ds)
-        //{
-        //    Assert.AreEqual(ds.Load(), result0);
-        //}
+        [Test, TestCaseSource("ds0")]
+        public void NullItemTestLoad(IDs ds)
+        {
+            Assert.AreEqual(ds.Load(), result0);
+        }
 
-        //[Test, TestCaseSource("ds1")]
-        //public void OneItemTestLoad(IDs ds)
-        //{
-        //    Assert.AreEqual(ds.Load(), result1);
-        //}
+        [Test, TestCaseSource("ds1")]
+        public void OneItemTestLoad(IDs ds)
+        {
+            Assert.AreEqual(ds.Load(), result1);
+        }
 
-        //[Test, TestCaseSource("ds4")]
-        //public void ManyItemTestLoad(IDs ds)
-        //{
-        //    Assert.AreEqual(ds.Load(), result4);
-        //}
+        [Test, TestCaseSource("ds4")]
+        public void ManyItemTestLoad(IDs ds)
+        {
+            Assert.AreEqual(ds.Load(), result4);
+        }
 
-        //[Test, TestCaseSource("ds0_save")]
-        //public void NullItemTestSave(IDs ds)
-        //{
-        //    ds.Save(result0);
-        //    Stream expectedStream = File.OpenRead(ds.getPath());
-        //    string ext = ds.getPath().Split('.')[1];
-        //    Stream actualStream = File.OpenRead(this.path + "cats_0_ideal." + ext);
-        //    Assert.That(actualStream, Is.EqualTo(expectedStream));
-        //    expectedStream.Close();
-        //    actualStream.Close();
-        //}
+        [Test, TestCaseSource("ds0_save")]
+        public void NullItemTestSave(IDs ds)
+        {
+            ds.Save(result0);
+            Stream expectedStream = File.OpenRead(ds.getPath());
+            string ext = ds.getPath().Split('.')[1];
+            Stream actualStream = File.OpenRead(this.path + "cats_0_ideal." + ext);
+            Assert.That(actualStream, Is.EqualTo(expectedStream));
+            expectedStream.Close();
+            actualStream.Close();
+        }
 
-        //[Test, TestCaseSource("ds1_save")]
-        //public void OneItemTestSave(IDs ds)
-        //{
-        //    ds.Save(result1);
-        //    Stream expectedStream = File.OpenRead(ds.getPath());
-        //    string ext = ds.getPath().Split('.')[1];
-        //    Stream actualStream = File.OpenRead(this.path + "cats_1_ideal." + ext);
-        //    Assert.That(actualStream, Is.EqualTo(expectedStream));
-        //    expectedStream.Close();
-        //    actualStream.Close();
-        //}
+        [Test, TestCaseSource("ds1_save")]
+        public void OneItemTestSave(IDs ds)
+        {
+            ds.Save(result1);
+            Stream expectedStream = File.OpenRead(ds.getPath());
+            string ext = ds.getPath().Split('.')[1];
+            Stream actualStream = File.OpenRead(this.path + "cats_1_ideal." + ext);
+            Assert.That(actualStream, Is.EqualTo(expectedStream));
+            expectedStream.Close();
+            actualStream.Close();
+        }
 
-        //[Test, TestCaseSource("ds4_save")]
-        //public void ManyItemTestSave(IDs ds)
-        //{
-        //    ds.Save(result4);
-        //    Stream expectedStream = File.OpenRead(ds.getPath());
-        //    string ext = ds.getPath().Split('.')[1];
-        //    Stream actualStream = File.OpenRead(this.path + "cats_4_ideal." + ext);
-        //    Assert.That(actualStream, Is.EqualTo(expectedStream));
-        //    expectedStream.Close();
-        //    actualStream.Close();
-        //}
+        [Test, TestCaseSource("ds4_save")]
+        public void ManyItemTestSave(IDs ds)
+        {
+            ds.Save(result4);
+            Stream expectedStream = File.OpenRead(ds.getPath());
+            string ext = ds.getPath().Split('.')[1];
+            Stream actualStream = File.OpenRead(this.path + "cats_4_ideal." + ext);
+            Assert.That(actualStream, Is.EqualTo(expectedStream));
+            expectedStream.Close();
+            actualStream.Close();
+        }
 
-        //[TestFixtureTearDown]
-        //public void CleanFiles()
-        //{
-        //    File.Delete(file_path + "cats_0.csv");
-        //    File.Delete(file_path + "cats_0.xml");
-        //    File.Delete(file_path + "cats_0.sxml");
-        //    File.Delete(file_path + "cats_0.dxml");
-        //    File.Delete(file_path + "cats_0.ddxml");
-        //    File.Delete(file_path + "cats_0.json");
-        //    File.Delete(file_path + "cats_0.yaml");
-        //    File.Delete(file_path + "cats_1.csv");
-        //    File.Delete(file_path + "cats_1.xml");
-        //    File.Delete(file_path + "cats_1.sxml");
-        //    File.Delete(file_path + "cats_1.dxml");
-        //    File.Delete(file_path + "cats_1.ddxml");
-        //    File.Delete(file_path + "cats_1.json");
-        //    File.Delete(file_path + "cats_1.yaml");
-        //    File.Delete(file_path + "cats_4.csv");
-        //    File.Delete(file_path + "cats_4.xml");
-        //    File.Delete(file_path + "cats_4.sxml");
-        //    File.Delete(file_path + "cats_4.dxml");
-        //    File.Delete(file_path + "cats_4.ddxml");
-        //    File.Delete(file_path + "cats_4.json");
-        //    File.Delete(file_path + "cats_4.yaml");
-        //}
+        [TestFixtureTearDown]
+        public void CleanFiles()
+        {
+            File.Delete(file_path + "cats_0.csv");
+            File.Delete(file_path + "cats_0.xml");
+            File.Delete(file_path + "cats_0.sxml");
+            File.Delete(file_path + "cats_0.dxml");
+            File.Delete(file_path + "cats_0.ddxml");
+            File.Delete(file_path + "cats_0.json");
+            File.Delete(file_path + "cats_0.yaml");
+            File.Delete(file_path + "cats_1.csv");
+            File.Delete(file_path + "cats_1.xml");
+            File.Delete(file_path + "cats_1.sxml");
+            File.Delete(file_path + "cats_1.dxml");
+            File.Delete(file_path + "cats_1.ddxml");
+            File.Delete(file_path + "cats_1.json");
+            File.Delete(file_path + "cats_1.yaml");
+            File.Delete(file_path + "cats_4.csv");
+            File.Delete(file_path + "cats_4.xml");
+            File.Delete(file_path + "cats_4.sxml");
+            File.Delete(file_path + "cats_4.dxml");
+            File.Delete(file_path + "cats_4.ddxml");
+            File.Delete(file_path + "cats_4.json");
+            File.Delete(file_path + "cats_4.yaml");
+        }
     }
 }
